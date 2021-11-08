@@ -1,0 +1,40 @@
+.titulo {
+	font-size: 8rem;
+}
+
+.subtitulo {
+	font-size: 6rem;
+	margin-top: 1rem;
+	margin-bottom: 1rem;
+	max-width: 20ch;
+}
+
+.texto {
+	font-size: 4rem;
+}
+
+.subtexto {
+	font-size: 3rem;
+	line-height: 1.3;
+}
+
+.texto-pequeno {
+	font-size: 1.5rem;
+}
+
+.btnHome {
+	margin-top: 1.5rem;
+	padding: 20px 40px;
+	background: var(--color-secondary);
+	border: 0;
+	border-radius: 4px;
+	color: var(--color-primary);
+	font-size: 1.2rem;
+	font-weight: semibold;
+	cursor: pointer;
+	transition: 0.5s;
+}
+
+.btnHome:hover {
+	background: var(--color-extra2);
+}

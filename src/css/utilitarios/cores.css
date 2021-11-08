@@ -1,0 +1,26 @@
+:root {
+	/*colors*/
+	--color-primary: #000000;
+	--color-primary-bg: #202020;
+	--color-secondary: #01d461;
+	--color-text: #ffffff;
+	--color-extra: #8000ff;
+	--color-extra2: #3e9766;
+	/*fonts*/
+}
+
+.cor-1 {
+	color: var(--color-primary);
+}
+
+.cor-2 {
+	color: var(--color-secondary);
+}
+
+.cor-3 {
+	color: var(--color-text);
+}
+
+.cor-extra {
+	color: var(--color-extra);
+}

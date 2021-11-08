@@ -1,0 +1,20 @@
+/*global*/
+@import url('global/global.css');
+
+/*cores*/
+@import url('utilitarios/cores.css');
+
+/*tipografia*/
+@import url('utilitarios/tipografia.css');
+
+/*images*/
+@import url('utilitarios/images.css');
+
+/*header*/
+@import url('global/header.css');
+
+/*home*/
+@import url('home/home.css');
+
+/*about*/
+@import url('about/about.css');

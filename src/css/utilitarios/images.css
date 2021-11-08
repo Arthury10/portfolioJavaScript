@@ -1,0 +1,6 @@
+.img-g {
+	width: 100%;
+	height: 20%;
+	object-fit: cover;
+	object-position: center center;
+}
