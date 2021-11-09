@@ -1,6 +1,22 @@
-/*NAVEGAÇÃO POR TABS*/
+/*menu-mobile*/
+const menuMobile = document.querySelector('.menu-hamburguer')
+const menuMobileList = document.querySelector('.nav-mobile')
+
+/*selectores navtabs*/
 const navMenu = document.querySelectorAll('a[id^=nav]')
 const modalMenu = document.querySelectorAll('section[id^=m]')
+
+/*menu mobile*/
+menuMobile.addEventListener('click', () => {
+	menuMobileList.classList.toggle('openModalMobile')
+})
+navMenu.forEach(e => {
+	e.addEventListener('click', () => {
+		menuMobileList.classList.toggle('openModalMobile')
+	})
+})
+
+/*NAVEGAÇÃO POR TABS*/
 
 if (navMenu.length && modalMenu.length) {
 	modalMenu[0].classList.add('ativo')

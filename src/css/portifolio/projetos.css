@@ -51,7 +51,15 @@
 	padding: 20px;
 	background: var(--color-primary-bg);
 	border-radius: 4px;
-	gap: 50px;
+	gap: 10%;
+}
+
+.tecnologia-usada-pack {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	gap: 1rem;
+	flex-direction: column;
 }
 
 .tecSkill {
