@@ -25,3 +25,11 @@ img[src=''] {
 	margin: 0 auto;
 	padding: 40px 40px;
 }
+
+.tabsNav {
+	display: none;
+}
+
+.ativo {
+	display: block;
+}

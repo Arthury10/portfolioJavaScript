@@ -31,6 +31,7 @@ nav .links-nav a {
 	font-size: 1.3rem;
 	color: var(--color-text);
 	transition: 0.5s;
+	cursor: pointer;
 }
 
 nav .links-nav a:hover {
@@ -43,8 +44,22 @@ nav .links-nav a:hover {
 }
 
 @media screen and (max-width: 768px) {
+	.header {
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+		gap: 50px;
+	}
+
 	nav .links-nav {
-		display: none;
+		justify-content: center;
+		align-items: center;
+	}
+
+	nav .links-nav a {
+		background-color: var(--color-primary-bg);
+		padding: 10px 20px;
+		border-radius: 4px;
 	}
 
 	.menu-mobile-icon {
@@ -55,9 +70,5 @@ nav .links-nav a:hover {
 @media screen and (max-width: 450px) {
 	.logo h1 {
 		font-size: 1.3rem;
-	}
-
-	.menu-mobile-icon {
-		display: block;
 	}
 }

@@ -17,22 +17,19 @@
 				</div>
 				<nav>
 					<ul class="links-nav">
-						<li><a href="#home">Home</a></li>
-						<li><a href="#about">About</a></li>
-						<li><a href="#skill">Skill</a></li>
+						<li><a id="navHome">Home</a></li>
+						<li><a id="navAbout">About</a></li>
+						<li><a id="navSkill">Skill</a></li>
 						<li>
-							<a class="cor-3" href="#portifolio">Portifólio</a>
+							<a id="navPort" href="#portifolio">Portifólio</a>
 						</li>
 					</ul>
 				</nav>
-				<div class="menu-mobile-icon">
-					<img src="assets/menu.svg" alt="Menu-Mobile" />
-				</div>
 			</div>
 		</header>
 		<!--header-->
 		<!--section-HOME-->
-		<section class="home-bg" id="home">
+		<section class="home-bg tabsNav" id="mhome">
 			<div class="container section-home">
 				<div class="apresentation-text">
 					<p class="subtexto">Olá meu nome é</p>
@@ -53,7 +50,7 @@
 		</section>
 		<!--section-HOME-->
 		<!--section-about-->
-		<section class="about-bg" id="about">
+		<section class="about-bg tabsNav" id="mabout">
 			<div class="container section-about">
 				<div class="about-text-persona">
 					<h2 class="subtexto">Sobre</h2>
@@ -96,7 +93,7 @@
 			</div>
 		</section>
 		<!--section-about-->
-		<section class="formacao" id="skill" aria-label="Formação">
+		<section class="formacao tabsNav" id="mskill" aria-label="Formação">
 			<div class="formacao-container container">
 				<h2 class="subtitulo">Skills</h2>
 				<div>
@@ -151,5 +148,7 @@
 				</div>
 			</div>
 		</section>
+		<section id="mportifolio" class="tabsNav"></section>
+		<script src="src/js/script.js"></script>
 	</body>
 </html>
