@@ -1,9 +1,5 @@
 header {
-	position: fixed;
-	top: 0;
-	left: 0;
 	width: 100%;
-	z-index: 999;
 }
 
 .header-bg {
@@ -15,6 +11,9 @@ header {
 	justify-content: space-between;
 	align-items: center;
 	flex-wrap: wrap;
+	max-width: 1440px;
+	margin: 0 auto;
+	padding: 40px 40px;
 }
 
 .logo h1 {
@@ -32,6 +31,22 @@ nav .links-nav a {
 	color: var(--color-text);
 	transition: 0.5s;
 	cursor: pointer;
+	position: relative;
+}
+
+nav .links-nav a::after {
+	content: '';
+	display: block;
+	height: 2px;
+	width: 0px;
+	background: var(--color-secondary);
+	margin-top: 4px;
+	transition: 0.3s;
+	position: absolute;
+}
+
+nav .links-nav a:hover::after {
+	width: 100%;
 }
 
 nav .links-nav a:hover {
@@ -70,5 +85,19 @@ nav .links-nav a:hover {
 @media screen and (max-width: 450px) {
 	.logo h1 {
 		font-size: 1.3rem;
+	}
+
+	nav .links-nav {
+		display: flex;
+		flex-direction: column;
+		gap: 20px;
+		flex-wrap: wrap;
+	}
+
+	nav .links-nav a {
+		font-size: 0.8rem;
+		color: var(--color-text);
+		padding: 10px 20px;
+		border-radius: 4px;
 	}
 }

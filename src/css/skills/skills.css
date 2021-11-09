@@ -3,7 +3,6 @@
 }
 
 .formacao-container {
-	padding-top: 20rem;
 	display: grid;
 	grid-template-columns: 1fr 2fr;
 	gap: 100px;
@@ -86,11 +85,5 @@
 	.formacao-extra h3::before {
 		position: initial;
 		margin-bottom: 10px;
-	}
-}
-
-@media screen and (max-width: 700px) {
-	.formacao-container {
-		padding-top: 20rem;
 	}
 }

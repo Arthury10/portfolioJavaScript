@@ -14,6 +14,7 @@ body {
 	color: var(--color-text);
 	font-family: sans-serif;
 	height: 100%;
+	padding: auto auto;
 }
 
 img {
@@ -27,7 +28,7 @@ img[src=''] {
 
 .container {
 	max-width: 1440px;
-	margin: 0 auto;
+	margin: 10rem auto;
 	padding: 40px 40px;
 	height: 100%;
 }
@@ -38,4 +39,33 @@ img[src=''] {
 
 .ativo {
 	display: block;
+}
+
+/*arrow to top*/
+
+.arrow-top img {
+	width: 2rem;
+	height: 2rem;
+	background-color: var(--color-secondary);
+	border-radius: 50%;
+	transition: 0.5s;
+}
+.arrowtotop {
+	position: fixed;
+	bottom: 20px;
+	right: 20px;
+	display: none;
+	transition: 0.5s;
+}
+
+.openToTop {
+	display: block;
+	transition: 0.5s;
+}
+
+@media screen and (max-width: 768px) {
+	.container {
+		margin: 5rem auto;
+		padding: 20px 20px;
+	}
 }
