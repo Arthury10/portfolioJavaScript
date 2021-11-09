@@ -54,11 +54,18 @@ nav .links-nav a:hover {
 	color: var(--color-secondary);
 }
 
-/*menu-mobile*/
-
-.menu-hamburguer {
-	cursor: pointer;
+.icon-menu {
 	display: none;
+}
+
+.icon-menu {
+	color: var(--base-color);
+	font-size: 1.5rem;
+	cursor: pointer;
+}
+
+.openModalMobile {
+	display: block;
 }
 
 @media screen and (max-width: 800px) {
@@ -74,7 +81,7 @@ nav .links-nav a:hover {
 		display: block;
 	}
 
-	.menu-hamburguer {
+	.icon-menu {
 		display: block;
 	}
 

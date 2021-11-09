@@ -1,5 +1,5 @@
 /*menu-mobile*/
-const menuMobile = document.querySelector('.menu-hamburguer')
+const menuMobile = document.querySelector('.icon-menu')
 const menuMobileList = document.querySelector('.nav-mobile')
 
 /*selectores navtabs*/
@@ -62,3 +62,4 @@ window.addEventListener('scroll', () => {
 		arrow.classList.remove('show')
 	}
 })
+/*ARROW TO UP*/
