@@ -1,7 +1,8 @@
 :root {
 	/*colors*/
 	--color-primary: #000000;
-	--color-primary-bg: #202020;
+	--color-primary-bg: #101010;
+	--color-primary-bg2: #202020;
 	--color-secondary: #01d461;
 	--color-text: #ffffff;
 	--color-extra: #8000ff;

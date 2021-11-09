@@ -3,12 +3,12 @@
 }
 
 .section-about {
+	padding-top: 20rem;
 	display: flex;
 	justify-content: space-between;
 	align-items: stretch;
-	background-color: var(--color-primary-bg);
 	flex-wrap: wrap;
-	max-width: 1280px;
+	border-radius: 4px;
 }
 
 .about-text-persona {
