@@ -33,13 +33,3 @@
 	font-size: 1.5rem;
 	color: var(--color-primary);
 }
-
-.redes-sociais a {
-	transition: top 1s;
-	animation-duration: 4s;
-}
-
-.redes-sociais a:hover {
-	position: relative;
-	top: -10px;
-}
