@@ -1,13 +1,15 @@
 .about-bg {
 	background: var(--color-primary);
+	height: auto;
 }
 
 .section-about {
 	display: flex;
 	justify-content: space-between;
-	align-items: stretch;
 	flex-wrap: wrap;
+	align-items: center;
 	border-radius: 4px;
+	height: 100%;
 }
 
 .about-text-persona {
