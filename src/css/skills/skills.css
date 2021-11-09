@@ -75,7 +75,11 @@
 @media screen and (max-width: 800px) {
 	.formacao-container {
 		grid-template-columns: 1fr;
-		gap: 40px;
+		gap: 20px;
+	}
+
+	.formacao .container {
+		margin: 2rem auto;
 	}
 
 	.formacao-texto {
@@ -85,5 +89,20 @@
 	.formacao-extra h3::before {
 		position: initial;
 		margin-bottom: 10px;
+	}
+
+	.list-facul-type {
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+	}
+
+	.subtitulo-skill {
+		text-align: center;
+	}
+
+	.formacao-texto {
+		text-align: center;
 	}
 }

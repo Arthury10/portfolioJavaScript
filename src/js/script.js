@@ -53,12 +53,12 @@ window.addEventListener('load', () => {
 })
 
 /*ARROW TO UP*/
-const arrow = document.querySelector('.arrowtotop')
+const arrow = document.querySelector('.back-to-top')
 
 window.addEventListener('scroll', () => {
 	if (window.pageYOffset > 100) {
-		arrow.classList.add('openToTop')
+		arrow.classList.add('show')
 	} else {
-		arrow.classList.remove('openToTop')
+		arrow.classList.remove('show')
 	}
 })

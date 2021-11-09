@@ -39,11 +39,7 @@
 		</header>
 		<!--header-->
 		<!--arrowtotop-->
-		<div class="arrowtotop">
-			<a href="#header" class="arrow-top">
-				<img src="assets/arrow-up.svg" alt="" />
-			</a>
-		</div>
+		<a href="#header" class="back-to-top"><img src="assets/arrow-up.svg" alt="" /></i></a>
 		<!--arrowtotop-->
 		<!--section-HOME-->
 		<section class="home-bg tabsNav fade-in-fwd" id="mhome">
@@ -117,7 +113,7 @@
 					<h2 class="subtitulo">Skills</h2>
 					<button id="btnHome" class="btnHome">Baixar CV</button>
 				</div>
-				<div>
+				<div class="list-facul-type">
 					<p class="formacao-texto">
 						Atualmente estou estudando pelos cursos da
 						<strong>Origamid</strong> e <strong>Rocketseat</strong>
@@ -290,10 +286,11 @@
 					<h2 class="texto">Contato</h2>
 					<div class="form-group">
 						<input
-							type="name"
+							type="text"
 							class="form-control"
 							id="name"
 							placeholder="Nome"
+							name="name"
 							required
 						/>
 					</div>
@@ -303,15 +300,17 @@
 							class="form-control"
 							id="email"
 							placeholder="E-mail"
+							name="email"
 							required
 						/>
 					</div>
 					<div class="form-group">
 						<input
-							type="message"
+							type="text"
 							class="form-control"
 							id="assunto"
 							placeholder="Assunto"
+							name="Subject"
 							required
 						/>
 					</div>
@@ -321,6 +320,7 @@
 							id="mensagem"
 							rows="3"
 							placeholder="Sua Mensagem"
+							name="message"
 							required
 						></textarea>
 					</div>
@@ -331,7 +331,7 @@
 			</div>
 		</section>
 		<!--CONTATO-->
-		<footer class="footer-bg fade-in-fwd">
+		<footer class="footer-bg fade-in-fwd" id="footer">
 			<div class="footer container">
 				<div class="redes-sociais">
 					<a target="_blank" href="https://github.com/Arthury10">

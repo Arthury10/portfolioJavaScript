@@ -67,9 +67,10 @@
 	height: 32px;
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 800px) {
 	.section-portifolio .titulo {
-		font-size: 6rem;
+		text-align: center;
+		font-size: 4rem;
 	}
 
 	.section-portifolio .carrousel {
