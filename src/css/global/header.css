@@ -4,6 +4,7 @@ header {
 
 .header-bg {
 	background: var(--color-primary);
+	border-bottom: 0.1rem solid var(--color-secondary);
 }
 
 .header {
@@ -79,6 +80,12 @@ nav .links-nav a:hover {
 
 	.menu-mobile-icon {
 		display: block;
+	}
+}
+
+@media screen and (max-width: 610px) {
+	nav .links-nav {
+		flex-direction: column;
 	}
 }
 

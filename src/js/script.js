@@ -40,7 +40,7 @@ window.addEventListener('load', () => {
 const arrow = document.querySelector('.arrowtotop')
 
 window.addEventListener('scroll', () => {
-	if (window.pageYOffset > 200) {
+	if (window.pageYOffset > 100) {
 		arrow.classList.add('openToTop')
 	} else {
 		arrow.classList.remove('openToTop')
