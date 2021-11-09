@@ -10,6 +10,10 @@
 	flex-wrap: wrap;
 }
 
+.apresentation-text .subtexto {
+	color: var(--color-text);
+}
+
 @media screen and (max-width: 1280px) {
 	.section-home {
 		flex-direction: column;

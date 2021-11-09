@@ -18,3 +18,20 @@ if (navMenu.length && modalMenu.length) {
 		})
 	})
 }
+
+/*typed*/
+window.addEventListener('load', () => {
+	const typed = new Typed('.typing', {
+		strings: ['Web Developer', 'Web Designer'],
+		typeSpeed: 100,
+		backSpeed: 60,
+		loop: true
+	})
+
+	const typed2 = new Typed('.typing2', {
+		strings: ['fólio'],
+		typeSpeed: 100,
+		backSpeed: 60,
+		loop: true
+	})
+})
