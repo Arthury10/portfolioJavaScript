@@ -76,11 +76,25 @@ img[src=''] {
 	transform: translateY(0);
 }
 
-@media screen and (max-width: 768px) {
-	.container {
-		margin: 5rem auto;
-		padding: 20px 20px;
-	}
+/*scroll*/
+/* width */
+::-webkit-scrollbar {
+	width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+	background: var(--color-secondary);
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+	background: var(--color-primary-bg2);
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+	background: #555;
 }
 
 /*animista*/
@@ -143,5 +157,12 @@ img[src=''] {
 		-webkit-transform: translateY(0);
 		transform: translateY(0);
 		opacity: 1;
+	}
+}
+
+@media screen and (max-width: 768px) {
+	.container {
+		margin: 5rem auto;
+		padding: 20px 20px;
 	}
 }
