@@ -1,0 +1,45 @@
+.footer-bg {
+	background: var(--color-secondary);
+}
+
+.footer {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	gap: 2rem;
+}
+
+.redes-sociais {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: row;
+	margin-top: 20px;
+	gap: 5rem;
+}
+
+.redes-sociais img {
+	width: 32px;
+	height: 32px;
+}
+
+.footer h2 {
+	font-size: 2rem;
+	color: var(--color-primary);
+}
+
+.footer p {
+	font-size: 1.5rem;
+	color: var(--color-primary);
+}
+
+.redes-sociais a {
+	transition: top 1s;
+	animation-duration: 4s;
+}
+
+.redes-sociais a:hover {
+	position: relative;
+	top: -10px;
+}

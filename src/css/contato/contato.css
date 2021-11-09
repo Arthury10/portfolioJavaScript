@@ -1,0 +1,45 @@
+.contato-bg {
+	background: var(--color-primary);
+}
+
+.section-contato {
+	background: var(--color-primary-bg);
+	border-radius: 4px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	gap: 2rem;
+	padding: 40px 40px;
+}
+
+.section-contato .texto {
+	color: var(--color-secondary);
+}
+
+.form-group input {
+	width: 20rem;
+	height: 3rem;
+	border-radius: 0.5rem;
+	border: 0;
+	padding: 10px 10px;
+	font-size: 1.5rem;
+}
+
+.form-group textarea {
+	width: 20rem;
+	height: 10rem;
+	border-radius: 0.5rem;
+	border: 0;
+	padding: 10px 10px;
+	font-size: 1.5rem;
+	resize: none;
+}
+
+.form-group input:focus {
+	outline: 0.2rem solid var(--color-secondary);
+}
+
+.form-group textarea:focus {
+	outline: 0.2rem solid var(--color-secondary);
+}

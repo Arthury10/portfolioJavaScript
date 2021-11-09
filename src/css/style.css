@@ -24,3 +24,9 @@
 
 /*projetos*/
 @import url('portifolio/projetos.css');
+
+/*contato*/
+@import url('contato/contato.css');
+
+/*footer*/
+@import url('global/footer.css');
