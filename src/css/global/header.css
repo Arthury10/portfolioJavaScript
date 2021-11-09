@@ -92,7 +92,7 @@ nav .links-nav a:hover {
 		position: absolute;
 		z-index: 999;
 		left: 0;
-		width: 100vw;
+		width: 100%;
 		top: 135px;
 		background-color: var(--color-primary-bg);
 		display: none;
@@ -115,5 +115,41 @@ nav .links-nav a:hover {
 @media screen and (max-width: 450px) {
 	.logo h1 {
 		font-size: 1.3rem;
+	}
+}
+
+/*animition*/
+.scale-up-ver-top {
+	-webkit-animation: scale-up-ver-top 0.4s cubic-bezier(0.39, 0.575, 0.565, 1)
+		both;
+	animation: scale-up-ver-top 0.4s cubic-bezier(0.39, 0.575, 0.565, 1) both;
+}
+
+@-webkit-keyframes scale-up-ver-top {
+	0% {
+		-webkit-transform: scaleY(0.4);
+		transform: scaleY(0.4);
+		-webkit-transform-origin: 100% 0%;
+		transform-origin: 100% 0%;
+	}
+	100% {
+		-webkit-transform: scaleY(1);
+		transform: scaleY(1);
+		-webkit-transform-origin: 100% 0%;
+		transform-origin: 100% 0%;
+	}
+}
+@keyframes scale-up-ver-top {
+	0% {
+		-webkit-transform: scaleY(0.4);
+		transform: scaleY(0.4);
+		-webkit-transform-origin: 100% 0%;
+		transform-origin: 100% 0%;
+	}
+	100% {
+		-webkit-transform: scaleY(1);
+		transform: scaleY(1);
+		-webkit-transform-origin: 100% 0%;
+		transform-origin: 100% 0%;
 	}
 }
