@@ -7,6 +7,8 @@
 /*tipografia*/
 @import url('utilitarios/tipografia.css');
 
+@import url('utilitarios/forms.css');
+
 /*header*/
 @import url('global/header.css');
 
