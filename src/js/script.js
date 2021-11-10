@@ -16,6 +16,19 @@ navMenu.forEach(e => {
 	})
 })
 
+/*open-modal-form-menu*/
+const BtnOpenFormHome = document.querySelector('.open-form-home')
+const ModalopenFormMenu = document.querySelector('.form-home')
+const BtnCloseFormHome = document.querySelector('.close-form-home')
+
+BtnOpenFormHome.addEventListener('click', () => {
+	ModalopenFormMenu.classList.add('show-form-home')
+})
+
+BtnCloseFormHome.addEventListener('click', () => {
+	ModalopenFormMenu.classList.remove('show-form-home')
+})
+
 /*NAVEGAÇÃO POR TABS*/
 
 if (navMenu.length && modalMenu.length) {
@@ -39,15 +52,17 @@ if (navMenu.length && modalMenu.length) {
 window.addEventListener('load', () => {
 	const typed = new Typed('.typing', {
 		strings: ['Web Developer', 'Web Designer'],
-		typeSpeed: 100,
-		backSpeed: 60,
+		typeSpeed: 150,
+		backSpeed: 100,
+		backDelay: 500,
 		loop: true
 	})
 
 	const typed2 = new Typed('.typing2', {
 		strings: ['fólio'],
-		typeSpeed: 100,
-		backSpeed: 60,
+		typeSpeed: 200,
+		backSpeed: 150,
+		backDelay: 500,
 		loop: true
 	})
 })

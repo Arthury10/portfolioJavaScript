@@ -3,6 +3,10 @@
 	height: auto;
 }
 
+.about-bg .container {
+	margin: 10rem auto;
+}
+
 .section-about {
 	display: flex;
 	justify-content: space-between;
@@ -51,6 +55,10 @@
 }
 
 @media screen and (max-width: 1280px) {
+	.about-bg .container {
+		margin: 5rem auto;
+	}
+
 	.section-about {
 		display: flex;
 		justify-content: center;

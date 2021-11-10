@@ -1,5 +1,5 @@
 .home-bg {
-	background: var(--color-primary);
+	background: var(--color-primary-bg1);
 }
 
 .section-home {
@@ -13,6 +13,33 @@
 	color: var(--color-text);
 }
 
+/*form home*/
+.form-home {
+	position: absolute;
+	top: 0;
+	left: 35%;
+	z-index: 999;
+	width: 30%;
+	min-width: 300px;
+	display: none;
+}
+
+.form-home form {
+	position: relative;
+}
+
+.form-home .close-form-home {
+	position: absolute;
+	width: 36px;
+	top: 20px;
+	right: 20px;
+	cursor: pointer;
+}
+
+.show-form-home {
+	display: block;
+}
+
 @media screen and (max-width: 1280px) {
 	.section-home {
 		flex-direction: column;
@@ -22,6 +49,27 @@
 
 	.apresentation-text {
 		text-align: center;
+	}
+
+	/*form home*/
+	.form-home {
+		position: absolute;
+		top: 0;
+		left: 0;
+		z-index: 999;
+		width: 100%;
+	}
+
+	.form-home form {
+		position: relative;
+	}
+
+	.form-home .close-form-home {
+		position: absolute;
+		width: 36px;
+		top: 20px;
+		right: 20px;
+		cursor: pointer;
 	}
 }
 

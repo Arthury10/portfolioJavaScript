@@ -48,7 +48,61 @@
 					<p class="subtexto">Olá meu nome é</p>
 					<h1 class="subtitulo">Arthur Ropke</h1>
 					<p class="subtexto">Eu sou <span class="typing"></span></p>
-					<button id="btnHome" class="btnHome">Contrate-me</button>
+					<button id="btnHome" class="btnHome open-form-home">Contrate-me</button>
+					<div class="fade-in-fwd form-home">
+					<form
+					class="section-contato"
+					action="https://formspree.io/f/xdoyrdlr"
+					method="post"
+					target="_blanck"
+				>
+					<h2 class="texto">Contato</h2>
+					<img class="close-form-home" src="assets/close.svg" alt="">
+					<div class="form-group">
+						<input
+							type="text"
+							class="form-control"
+							id="name"
+							placeholder="Nome"
+							name="name"
+							required
+						/>
+					</div>
+					<div class="form-group">
+						<input
+							type="email"
+							class="form-control"
+							id="email"
+							placeholder="E-mail"
+							name="email"
+							required
+						/>
+					</div>
+					<div class="form-group">
+						<input
+							type="text"
+							class="form-control"
+							id="assunto"
+							placeholder="Assunto"
+							name="Subject"
+							required
+						/>
+					</div>
+					<div class="form-group">
+						<textarea
+							class="form-control"
+							id="mensagem"
+							rows="3"
+							placeholder="Sua Mensagem"
+							name="message"
+							required
+						></textarea>
+					</div>
+					<button type="submit" id="btnHome" class="btn btnHome">
+						Enviar
+					</button>
+				</form>
+					</div>
 				</div>
 				<div class="apresentation-img">
 					<img
@@ -65,12 +119,7 @@
 				<div class="about-text-persona">
 					<h2 class="subtexto">Sobre</h2>
 					<p class="texto-pequeno">
-						Me chamo Arthur, tenho 20 anos, atualmente sou estudente
-						de Analise e Desenvolvimento de Sistemas no Senac
-						Pelotas. Sou Gaúcho da cidade de Morro Redondo. Eu amo
-						programar, Sou alegre, divertido, gosto de conversar e
-						aprender coisas novas, adoro escutar pessoas e levar
-						suas experiências de vida como motivação e aprendizado.
+						Olá, me chamo Arthur e tenho 20 anos, atualmente estudo Análise e Desenvolvimento de Sistemas no Senac Pelotas. Sou Gaúcho e resido na cidade de Morro Redondo. Eu amo programar, sou alegre, divertido, gosto de conversar e aprender coisas novas, além disso adoro escutar pessoas e levar suas experiências de vida como motivação e aprendizado.
 					</p>
 				</div>
 				<div class="about-text-dados">
@@ -111,7 +160,7 @@
 			<div class="formacao-container container">
 				<div class="subtitulo-skill">
 					<h2 class="subtitulo">Skills</h2>
-					<button id="btnHome" class="btnHome">Baixar CV</button>
+					<a target="_blank" href="assets/curriculo/Curriculo_ArthurRopke.pdf"><button id="btnHome" class="btnHome">Baixar CV</button></a>
 				</div>
 				<div class="list-facul-type">
 					<p class="formacao-texto">
