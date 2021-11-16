@@ -72,6 +72,24 @@
 	font-size: 1.125rem;
 }
 
+.pack-tecnologia {
+	display: flex;
+	flex-direction: column;
+	flex-wrap: wrap;
+	gap: 20px;
+}
+
+.tecnologia {
+	border-radius: 4px;
+	display: flex;
+	flex-direction: column;
+	gap: 1rem;
+	align-items: center;
+	justify-content: center;
+	background: var(--color-primary-bg);
+	padding: 20px;
+}
+
 @media screen and (max-width: 800px) {
 	.formacao-container {
 		grid-template-columns: 1fr;
