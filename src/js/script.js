@@ -42,6 +42,10 @@ function openModalFormMenu() {
 	const BtnOpenFormHome = document.querySelector('.open-form-home')
 	const ModalopenFormMenu = document.querySelector('.form-home')
 	const BtnCloseFormHome = document.querySelector('.close-form-home')
+	const formGroup = document.querySelectorAll('.form-group')
+	const btnSubmit = document.querySelector('#btnSubmit')
+	const btnContato = document.querySelector('#btnContato')
+	const sucesso = document.querySelector('.sucesso')
 
 	BtnOpenFormHome.addEventListener('click', () => {
 		ModalopenFormMenu.classList.add('show-form-home')
@@ -49,6 +53,19 @@ function openModalFormMenu() {
 
 	BtnCloseFormHome.addEventListener('click', () => {
 		ModalopenFormMenu.classList.remove('show-form-home')
+	})
+
+	btnSubmit.addEventListener('click', () => {
+		formGroup.forEach(e => {
+			e.classList.add('enviado')
+		})
+		sucesso.classList.add('enviado-sucesso')
+	})
+
+	btnContato.addEventListener('click', () => {
+		const reloadPage = setTimeout(() => {
+			location.reload()
+		})
 	})
 }
 
@@ -59,14 +76,6 @@ function typed() {
 			strings: ['Web Developer', 'Web Designer'],
 			typeSpeed: 150,
 			backSpeed: 100,
-			backDelay: 500,
-			loop: true
-		})
-
-		const typed2 = new Typed('.typing2', {
-			strings: ['fólio'],
-			typeSpeed: 200,
-			backSpeed: 150,
 			backDelay: 500,
 			loop: true
 		})

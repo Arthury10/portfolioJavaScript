@@ -10,7 +10,9 @@
 .section-about {
 	display: flex;
 	justify-content: space-between;
+	flex-direction: column;
 	flex-wrap: wrap;
+	gap: 5rem;
 	align-items: center;
 	border-radius: 4px;
 	height: 100%;
@@ -19,39 +21,34 @@
 
 .about-text-persona {
 	text-align: center;
-	max-width: 60ch;
+	max-width: 80ch;
 }
 
 .about-text-persona p {
 	margin-top: 1.5rem;
 	line-height: 1.3;
-	color: var(--color-text-secondary);
 }
 
 .about-text-dados {
-	text-align: center;
-}
-
-.list-about-1 {
 	display: flex;
-	justify-content: space-between;
+	gap: 4rem;
+	flex-wrap: wrap;
+	justify-content: center;
 	align-items: center;
-	margin-top: 1.5rem;
-	margin-bottom: 1.5rem;
 }
 
-.text-list {
-	font-size: 1.5rem;
-	flex: 1;
-	text-align: left;
-	font-weight: semibold;
+.dados {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	gap: 1rem;
 }
 
-.list-about-1 strong {
-	color: var(--color-text-secondary);
-	font-weight: 400;
-	flex: 1;
-	text-align: left;
+.img-dados {
+	padding: 20px 20px;
+	background: var(--color-primary);
+	border-radius: 50%;
 }
 
 @media screen and (max-width: 1280px) {
@@ -66,9 +63,11 @@
 		flex-direction: column;
 		gap: 5rem;
 	}
+}
 
-	.list-about-1 strong {
-		text-align: right;
+@media screen and (max-width: 600px) {
+	.about-text-dados {
+		flex-direction: column;
 	}
 }
 
@@ -83,9 +82,5 @@
 		flex: 1;
 		text-align: left;
 		font-weight: semibold;
-	}
-
-	.list-about-1 strong {
-		font-size: 1rem;
 	}
 }

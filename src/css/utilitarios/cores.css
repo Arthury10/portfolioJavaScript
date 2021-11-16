@@ -8,7 +8,6 @@
 	--color-text-secondary: #ccc;
 	--color-extra: #8000ff;
 	--color-extra2: #3e9766;
-	/*fonts*/
 }
 
 .cor-1 {
@@ -21,6 +20,10 @@
 
 .cor-3 {
 	color: var(--color-text);
+}
+
+.cor-4 {
+	color: var(--color-text-secondary);
 }
 
 .cor-extra {

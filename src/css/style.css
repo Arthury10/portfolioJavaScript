@@ -7,6 +7,10 @@
 /*tipografia*/
 @import url('utilitarios/tipografia.css');
 
+/*animação*/
+@import url('utilitarios/animacao.css');
+
+/*forms*/
 @import url('utilitarios/forms.css');
 
 /*header*/

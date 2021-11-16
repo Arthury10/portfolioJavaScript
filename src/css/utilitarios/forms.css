@@ -67,6 +67,18 @@
 	display: block;
 }
 
+.sucesso {
+	display: none;
+}
+
+.enviado {
+	display: none;
+}
+
+.enviado-sucesso {
+	display: block;
+}
+
 @media screen and (max-width: 1280px) {
 	/*form home*/
 	.form-home {
