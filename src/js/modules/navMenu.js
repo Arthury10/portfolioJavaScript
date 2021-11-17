@@ -6,17 +6,17 @@ export default function navMenu() {
 
 	if (navMenu.length && modalMenu.length) {
 		modalMenu[0].classList.add('ativo')
-		navMenu[0].classList.add('ativo')
+		navMenu[0].classList.add('navAtivo')
 
 		function activeTab(index) {
 			modalMenu.forEach(section => {
 				section.classList.remove('ativo')
 			})
 			navMenu.forEach(section => {
-				section.classList.remove('ativo')
+				section.classList.remove('navAtivo')
 			})
 			modalMenu[index].classList.add('ativo')
-			navMenu[index].classList.add('ativo')
+			navMenu[index].classList.add('navAtivo')
 		}
 
 		navMenu.forEach((itemMenu, index) => {

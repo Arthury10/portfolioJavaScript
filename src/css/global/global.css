@@ -41,6 +41,9 @@ img[src=''] {
 
 .ativo {
 	display: block;
+}
+
+.navAtivo {
 	color: var(--color-secondary) !important;
 }
 
