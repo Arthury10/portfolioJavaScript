@@ -41,6 +41,7 @@ img[src=''] {
 
 .ativo {
 	display: block;
+	color: var(--color-secondary) !important;
 }
 
 /*back-to-top*/
