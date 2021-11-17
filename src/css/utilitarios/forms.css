@@ -1,6 +1,7 @@
 .section-contato {
 	background: var(--color-primary-bg);
-	border-radius: 4px;
+	box-shadow: var(--color-secondary) 0px 10px 15px -5px;
+	border-radius: 30px;
 	display: flex;
 	justify-content: center;
 	align-items: center;

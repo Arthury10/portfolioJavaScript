@@ -33,8 +33,9 @@
 .faculdade {
 	flex: 1;
 	background: var(--color-primary-bg);
+	box-shadow: var(--color-secondary) 0px 10px 15px -5px;
+	border-radius: 30px;
 	padding: 40px;
-	border-radius: 4px;
 	display: flex;
 	flex-direction: column;
 }
@@ -80,7 +81,6 @@
 }
 
 .tecnologia {
-	border-radius: 4px;
 	display: flex;
 	flex-direction: column;
 	gap: 1rem;
@@ -88,6 +88,9 @@
 	justify-content: center;
 	background: var(--color-primary-bg);
 	padding: 20px;
+	background: var(--color-primary-bg);
+	box-shadow: var(--color-secondary) 0px 10px 15px -5px;
+	border-radius: 30px;
 }
 
 @media screen and (max-width: 800px) {

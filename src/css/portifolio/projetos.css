@@ -37,6 +37,8 @@
 	width: 50rem;
 	padding: 20px 20px;
 	background: var(--color-primary-bg);
+	box-shadow: var(--color-secondary) 0px 10px 15px -5px;
+	border-radius: 30px;
 }
 
 .projetos .item-projeto img {
@@ -50,8 +52,10 @@
 	align-items: center;
 	padding: 20px;
 	background: var(--color-primary-bg);
-	border-radius: 4px;
 	gap: 10%;
+
+	box-shadow: var(--color-secondary) 0px 10px 15px -5px;
+	border-radius: 30px;
 }
 
 .tecnologia-usada-pack {
