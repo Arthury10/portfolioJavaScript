@@ -43,10 +43,6 @@ img[src=''] {
 	display: block;
 }
 
-.navAtivo {
-	color: var(--color-secondary) !important;
-}
-
 /*back-to-top*/
 .back-to-top {
 	background: var(--color-secondary);
