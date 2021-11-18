@@ -58,3 +58,11 @@
 .typing {
 	color: var(--color-secondary);
 }
+
+.portTitle {
+	font-size: 2rem;
+}
+
+.portText {
+	font-size: 1.5rem;
+}

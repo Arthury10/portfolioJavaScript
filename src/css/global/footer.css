@@ -1,5 +1,6 @@
 .footer-bg {
 	background: var(--color-secondary);
+	height: auto;
 }
 
 .footer {
@@ -32,4 +33,13 @@
 .footer p {
 	font-size: 1.5rem;
 	color: var(--color-primary);
+}
+
+.footer p a {
+	color: var(--color-primary);
+	border-bottom: 2px solid var(--color-primary);
+}
+
+.footer p a:hover {
+	font-weight: bold;
 }

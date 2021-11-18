@@ -30,38 +30,45 @@
 .section-portifolio .carrousel .projetos {
 	display: flex;
 	justify-content: space-around;
+	background: var(--color-primary-bg);
+	box-shadow: var(--color-secondary) 0px 10px 15px -5px;
+	border-radius: 30px;
 	gap: 2rem;
 }
 
 .projetos .item-projeto {
+	width: 100%;
 	width: 50rem;
 	padding: 20px 20px;
-	background: var(--color-primary-bg);
-	box-shadow: var(--color-secondary) 0px 10px 15px -5px;
 	border-radius: 30px;
+	height: auto;
 }
-
-.projetos .item-projeto img {
-	border-radius: 4px;
-}
-
 .projeto-description {
 	display: flex;
 	flex-direction: column;
-	justify-content: center;
-	align-items: center;
+	text-align: left;
 	padding: 20px;
-	background: var(--color-primary-bg);
-	gap: 10%;
+	gap: 2rem;
+	width: 60%;
+	max-width: 40ch;
+}
 
-	box-shadow: var(--color-secondary) 0px 10px 15px -5px;
-	border-radius: 30px;
+.projeto-description h3::after {
+	content: '';
+	display: block;
+	width: 32px;
+	height: 2px;
+	background: var(--color-secondary);
+}
+
+.projeto-description p {
+	color: var(--color-text-secondary);
 }
 
 .tecnologia-usada-pack {
 	display: flex;
-	justify-content: center;
-	align-items: center;
+	justify-content: start;
+	align-items: flex-start;
 	gap: 1rem;
 	flex-direction: column;
 }
@@ -71,12 +78,25 @@
 	height: 46px;
 }
 
-@media screen and (max-width: 800px) {
-	.section-portifolio .titulo {
-		text-align: center;
-		font-size: 4rem;
-	}
+.btnProjeto {
+	width: 100%;
+	border: 1px solid var(--color-secondary);
+	padding: 20px 0;
+	text-align: center;
+	color: var(--color-text-secondary);
+}
 
+.btnProjeto:hover {
+	width: 100%;
+	border: 1px solid var(--color-secondary);
+	padding: 20px 0;
+	text-align: center;
+	color: var(--color-primary);
+	font-weight: bold;
+	background: var(--color-secondary);
+}
+
+@media screen and (max-width: 800px) {
 	.section-portifolio .carrousel {
 		flex-direction: column;
 		overflow: hidden;
