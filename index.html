@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-Br">
 	<head>
 		<meta charset="UTF-8" />
 		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
@@ -10,7 +10,7 @@
 		/>
 		<title>Portfólio: Arthur Ropke(Em Desenvolvimento)</title>
 		<!--CSS-->
-		<link rel="stylesheet" href="src/css/style.css" />
+		<link rel="stylesheet" href="src/css/style.min.css" />
 	</head>
 	<body>
 		<!--header-->
@@ -21,8 +21,8 @@
 						<span class="cor-2">Arthur</span>
 					</h1>
 				</div>
-				<nav class="nav-deskotop nav-mobile scale-up-ver-top" >
-					<ul class="links-nav ">
+				<nav class="nav-deskotop nav-mobile scale-up-ver-top">
+					<ul class="links-nav">
 						<li><a id="navHome">Inicio</a></li>
 						<li><a id="navAbout">Sobre</a></li>
 						<li><a id="navSkill">Skill</a></li>
@@ -33,128 +33,118 @@
 					</ul>
 				</nav>
 				<!--menu-->
-        <div class="icon-menu" ><img src="assets/menu.svg" alt="menu-mobile"></div>
+				<div class="icon-menu">
+					<img src="assets/menu.svg" alt="menu-mobile" />
+				</div>
 				<!--menu-mobile-->
 			</div>
 		</header>
 		<!--header-->
 		<!--arrowtotop-->
-		<a href="#header" class="back-to-top" data-menu="suave"><img src="assets/arrow-up.svg" alt="" /></i></a>
+		<a href="#header" class="back-to-top" data-menu="suave"
+			><img src="assets/arrow-up.svg" alt=""
+		/></a>
 		<!--arrowtotop-->
 		<!--section-HOME-->
-		<section id="mhome" data-anime="show-down" class="home-bg tabsNav show-down"  >
+		<section
+			id="mhome"
+			data-anime="show-down"
+			class="home-bg tabsNav show-down"
+		>
 			<div class="container section-home">
 				<div class="apresentation-text">
 					<p class="subtexto">Olá meu nome é</p>
 					<h1 class="subtitulo">Arthur Ropke</h1>
 					<p class="subtexto">Eu sou <span class="typing"></span></p>
-					<a target="_blank" href="assets/curriculo/Curriculo_ArthurRopke.pdf"><button id="btnHome" class="btnHome">Baixar CV</button></a>
-					<button id="btnHomeContato" class="btnHome btnContato open-form-home">Entrar em contato</button>
-					<div class="fade-in-fwd form-home">
-						<form
-						class="section-contato"
-						action="https://formspree.io/f/xdoyrdlr"
-						method="post"
-						target="_blanck"
+					<a
+						target="_blank"
+						rel="noopener"
+						href="assets/curriculo/Curriculo_ArthurRopke.pdf"
+						><button id="btnHome" class="btnHome">
+							Baixar CV
+						</button></a
 					>
-						<h2 class="texto">Contato</h2>
-						<img class="close-form-home" src="assets/close.svg" alt="">
-						<div class="form-group">
-							<input
-								type="text"
-								class="form-control"
-								id="name"
-								placeholder="Nome"
-								name="name"
-								required
-							/>
-						</div>
-						<div class="form-group">
-							<input
-								type="email"
-								class="form-control"
-								id="email"
-								placeholder="E-mail"
-								name="email"
-								required
-							/>
-						</div>
-						<div class="form-group">
-							<input
-								type="text"
-								class="form-control"
-								id="assunto"
-								placeholder="Assunto"
-								name="Subject"
-								required
-							/>
-						</div>
-						<div class="form-group">
-							<textarea
-								class="form-control"
-								id="mensagem"
-								rows="3"
-								placeholder="Sua Mensagem"
-								name="message"
-								required
-							></textarea>
-						</div>
-						<button type="submit" id="btnSubmit" class="btn btnHome form-group">
-							Enviar
-						</button>
-						<div class="sucesso">
-							<h2>Agradeço o contato, retornarei o mais breve possível!</h2>
-						</div>
-					</form>
-						</div>
+					<button
+						id="btnHomeContato"
+						class="btnHome btnContato open-form-home"
+					>
+						Entrar em contato
+					</button>
 				</div>
 				<div class="apresentation-img">
 					<div class="card">
 						<img
-						src="assets/Passaporte-react-js.png"
-						alt="Passaporte-react-js"
-					/>
+							src="assets/Passaporte-react-js.png"
+							alt="Passaporte-react-js"
+						/>
 					</div>
 				</div>
 			</div>
 		</section>
 		<!--section-HOME-->
 		<!--section-about-->
-		<section id="mabout" data-anime="show-down" class="about-bg tabsNav show-down" >
+		<section
+			id="mabout"
+			data-anime="show-down"
+			class="about-bg tabsNav show-down"
+		>
 			<div class="container section-about">
 				<div class="about-text-persona">
 					<h2 class="subtexto">Sobre</h2>
 					<p class="texto-pequeno cor-4">
-						Olá, me chamo Arthur e tenho 20 anos, atualmente estudo Análise e Desenvolvimento de Sistemas no Senac Pelotas. Sou Gaúcho e resido na cidade de Morro Redondo. Eu amo programar, sou alegre, divertido, gosto de conversar e aprender coisas novas, além disso adoro escutar pessoas e levar suas experiências de vida como motivação e aprendizado.
+						Olá, me chamo Arthur e tenho 20 anos, atualmente estudo
+						Análise e Desenvolvimento de Sistemas no Senac Pelotas.
+						Sou Gaúcho e resido na cidade de Morro Redondo. Eu amo
+						programar, sou alegre, divertido, gosto de conversar e
+						aprender coisas novas, além disso adoro escutar pessoas
+						e levar suas experiências de vida como motivação e
+						aprendizado.
 					</p>
 				</div>
 				<div class="about-text-dados">
-				<div class="dados">
-					<div class="img-dados">
-						<img src="assets/about/smille.svg" alt="Meu nome">
+					<div class="dados">
+						<div class="img-dados">
+							<img src="assets/about/smille.svg" alt="Meu nome" />
+						</div>
+						<h3>Meu Nome</h3>
+						<p class="cor-4">Arthur Ropke</p>
 					</div>
-					<h3>Meu Nome</h3>
-					<p class="cor-4">Arthur Ropke</p>
-				</div>
-				<div class="dados">
-					<div class="img-dados">
-						<img src="assets/about/mail.svg" alt="Meu email">
+					<div class="dados">
+						<div class="img-dados">
+							<img src="assets/about/mail.svg" alt="Meu email" />
+						</div>
+						<h3>E-mail</h3>
+						<a
+							class="cor-4"
+							rel="noopener"
+							target="_blank"
+							href="mailto:arthurropke@hotmail.com?"
+							>arthurropke@hotmail.com</a
+						>
 					</div>
-					<h3>E-mail</h3>
-					<a class="cor-4" target="_blank" href="mailto:arthurropke@hotmail.com?">arthurropke@hotmail.com</a>
-				</div>
-				<div class="dados">
-					<div class="img-dados">
-					<img src="assets/about/phone.svg" alt="Meu telefone">
+					<div class="dados">
+						<div class="img-dados">
+							<img
+								src="assets/about/phone.svg"
+								alt="Meu telefone"
+							/>
+						</div>
+						<h3>Telefone</h3>
+						<a
+							class="cor-4"
+							rel="noopener"
+							target="_blank"
+							href="https://web.whatsapp.com/send?phone=5553981374942"
+							>(53) 98137-4942</a
+						>
 					</div>
-					<h3>Telefone</h3>
-					<a class="cor-4" target="_blank" href="https://web.whatsapp.com/send?phone=5553981374942">(53) 98137-4942</a>
-				</div>
 				</div>
 			</div>
 		</section>
 		<!--section-about-->
-		<section id="mskill" data-anime="show-down"
+		<section
+			id="mskill"
+			data-anime="show-down"
 			class="formacao tabsNav show-down"
 			aria-label="Formação"
 		>
@@ -164,19 +154,22 @@
 					<div class="pack-tecnologia">
 						<div class="tecnologia">
 							<div class="img-tecnologia">
-							<img src="assets/skill/html5.svg" alt="HTML">
+								<img src="assets/skill/html5.svg" alt="HTML" />
 							</div>
 							<h3>HTML</h3>
 						</div>
 						<div class="tecnologia">
 							<div class="img-tecnologia">
-							<img src="assets/skill/css3.svg" alt="CSS">
+								<img src="assets/skill/css3.svg" alt="CSS" />
 							</div>
 							<h3>CSS</h3>
 						</div>
 						<div class="tecnologia">
 							<div class="img-tecnologia">
-							<img src="assets/skill/javascript.svg" alt="JAVASCRIPT">
+								<img
+									src="assets/skill/javascript.svg"
+									alt="JAVASCRIPT"
+								/>
 							</div>
 							<h3>JAVASCRIPT</h3>
 						</div>
@@ -240,20 +233,31 @@
 				</div>
 			</div>
 		</section>
-		<section data-anime="show-down" id="mportifolio" class="portifolio-bg tabsNav show-down">
+		<section
+			data-anime="show-down"
+			id="mportifolio"
+			class="portifolio-bg tabsNav show-down"
+		>
 			<div class="section-portifolio container">
 				<h1 class="titulo">Projetos</h1>
 				<div class="carrousel">
 					<div class="projetos">
-						<img class="item-projeto"
-								src="assets/projetos/portfolio.png"
-								alt="Projeto-BikeCraft"
+						<img
+							class="item-projeto"
+							src="assets/projetos/portfolio.png"
+							alt="Projeto-BikeCraft"
 						/>
 						<div class="projeto-description">
 							<h3 class="portTitle">arthury10.io</h3>
-							<p class="portText"><span class="cor-2">></span> Página pessoal para utilizar como portfólio.</p>
+							<p class="portText">
+								<span class="cor-2">></span> Página pessoal para
+								utilizar como portfólio.
+							</p>
 							<div class="tecnologia-usada-pack">
-								<p class="portText"><span class="cor-2">></span> Tecnologias usadas</p>
+								<p class="portText">
+									<span class="cor-2">></span> Tecnologias
+									usadas
+								</p>
 								<div class="tecnologias-usada">
 									<img
 										class="tecSkill"
@@ -272,20 +276,37 @@
 									/>
 								</div>
 							</div>
-							<a target="_blank" href="https://github.com/Arthury10/Arthury10.io" class="btnProjeto">VER NO GITHUB</a>
+							<a
+								target="_blank"
+								rel="noopener"
+								href="https://github.com/Arthury10/Arthury10.io"
+								class="btnProjeto"
+								>VER NO GITHUB</a
+							>
 						</div>
 					</div>
 					<!--porjeto2-->
-					<div class="projetos show-down" data-anime="scroll" data-anime="show-down">
-						<img class="item-projeto"
-								src="assets/projetos/portfolio.png"
-								alt="Projeto-BikeCraft"
+					<div
+						class="projetos show-down"
+						data-anime="scroll"
+						data-anime="show-down"
+					>
+						<img
+							class="item-projeto"
+							src="assets/projetos/portfolio.png"
+							alt="Projeto-BikeCraft"
 						/>
 						<div class="projeto-description">
 							<h3 class="portTitle">arthury10.io</h3>
-							<p class="portText"><span class="cor-2">></span> Página pessoal para utilizar como portfólio.</p>
+							<p class="portText">
+								<span class="cor-2">></span> Página pessoal para
+								utilizar como portfólio.
+							</p>
 							<div class="tecnologia-usada-pack">
-								<p class="portText"><span class="cor-2">></span> Tecnologias usadas</p>
+								<p class="portText">
+									<span class="cor-2">></span> Tecnologias
+									usadas
+								</p>
 								<div class="tecnologias-usada">
 									<img
 										class="tecSkill"
@@ -304,19 +325,36 @@
 									/>
 								</div>
 							</div>
-							<a target="_blank" href="https://github.com/Arthury10/Arthury10.io" class="btnProjeto">VER NO GITHUB</a>
+							<a
+								target="_blank"
+								rel="noopener"
+								href="https://github.com/Arthury10/Arthury10.io"
+								class="btnProjeto"
+								>VER NO GITHUB</a
+							>
 						</div>
 					</div>
-					<div class="projetos show-down" data-anime="scroll" data-anime="show-down">
-						<img class="item-projeto"
-								src="assets/projetos/portfolio.png"
-								alt="Projeto-BikeCraft"
+					<div
+						class="projetos show-down"
+						data-anime="scroll"
+						data-anime="show-down"
+					>
+						<img
+							class="item-projeto"
+							src="assets/projetos/portfolio.png"
+							alt="Projeto-BikeCraft"
 						/>
 						<div class="projeto-description">
 							<h3 class="portTitle">arthury10.io</h3>
-							<p class="portText"><span class="cor-2">></span> Página pessoal para utilizar como portfólio.</p>
+							<p class="portText">
+								<span class="cor-2">></span> Página pessoal para
+								utilizar como portfólio.
+							</p>
 							<div class="tecnologia-usada-pack">
-								<p class="portText"><span class="cor-2">></span> Tecnologias usadas</p>
+								<p class="portText">
+									<span class="cor-2">></span> Tecnologias
+									usadas
+								</p>
 								<div class="tecnologias-usada">
 									<img
 										class="tecSkill"
@@ -335,14 +373,24 @@
 									/>
 								</div>
 							</div>
-							<a target="_blank" href="https://github.com/Arthury10/Arthury10.io" class="btnProjeto">VER NO GITHUB</a>
+							<a
+								target="_blank"
+								rel="noopener"
+								href="https://github.com/Arthury10/Arthury10.io"
+								class="btnProjeto"
+								>VER NO GITHUB</a
+							>
 						</div>
 					</div>
 				</div>
 			</div>
 		</section>
 		<!--CONTATO-->
-		<section id="mcontato" data-anime="show-down" class="contato-bg tabsNav show-down">
+		<section
+			id="mcontato"
+			data-anime="show-down"
+			class="contato-bg tabsNav show-down"
+		>
 			<div class="container">
 				<form
 					class="section-contato"
@@ -395,7 +443,10 @@
 						Enviar
 					</button>
 					<div class="sucesso">
-						<h2>Agradeço o contato, retornarei o mais breve possível!</h2>
+						<h2>
+							Agradeço o contato, retornarei o mais breve
+							possível!
+						</h2>
 					</div>
 				</form>
 			</div>
@@ -404,15 +455,22 @@
 		<footer class="footer-bg scale-up-ver-top" id="footer">
 			<div class="footer container">
 				<div class="redes-sociais">
-					<a class="hvr-float-shadow " target="_blank" href="https://github.com/Arthury10">
+					<a
+						class="hvr-float-shadow"
+						target="_blank"
+						rel="noopener"
+						href="https://github.com/Arthury10"
+					>
 						<img
 							src="assets/projetos/redes/github.svg"
 							alt="github-logo"
 						/>
 					</a>
 
-					<a class="hvr-float-shadow "
+					<a
+						class="hvr-float-shadow"
 						target="_blank"
+						rel="noopener"
 						href="https://www.linkedin.com/in/arthur-ropke/"
 					>
 						<img
@@ -420,24 +478,37 @@
 							alt="linkedin-logo"
 						/>
 					</a>
-					<a class="hvr-float-shadow "
+					<a
+						class="hvr-float-shadow"
 						target="_blank"
+						rel="noopener"
 						href="https://www.instagram.com/arthurropkede/"
 						><img
 							src="assets/projetos/redes/instagram.svg"
 							alt="instagran-logo"
 					/></a>
-					<a class="hvr-float-shadow "
+					<a
+						class="hvr-float-shadow"
 						target="_blank"
+						rel="noopener"
 						href="https://www.facebook.com/arthur.ropkedemoraes"
 					>
-						<img class="hvr-float-shadow "
+						<img
+							class="hvr-float-shadow"
 							src="assets/projetos/redes/facebook.svg"
 							alt="facebook-logo"
 						/>
 					</a>
 				</div>
-				<p><a target="_blanck" href="https://www.linkedin.com/in/arthur-ropke/">Arthur Ropke</a> ©All rights reserved.</p>
+				<p>
+					<a
+						target="_blanck"
+						rel="noopener"
+						href="https://www.linkedin.com/in/arthur-ropke/"
+						>Arthur Ropke</a
+					>
+					©All rights reserved.
+				</p>
 			</div>
 		</footer>
 		<!--scripts-->

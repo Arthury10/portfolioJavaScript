@@ -8,7 +8,6 @@ import initScrollSuave from './modules/scroll-suave.js'
 
 navMenu()
 typed()
-formMenu()
 arrowToUp()
 slide()
 initAnimacaoScroll()
