@@ -5,6 +5,8 @@ header {
 .header-bg {
 	background: var(--color-primary);
 	border-bottom: 0.1rem solid var(--color-secondary);
+	position: relative;
+	z-index: 1;
 }
 
 .header {
@@ -128,16 +130,13 @@ nav .links-nav a.navAtivo::after {
 }
 
 @media screen and (max-width: 450px) {
-	.logo h1 {
-		font-size: 1.3rem;
-	}
 }
 
 /*animition*/
 .scale-up-ver-top {
-	-webkit-animation: scale-up-ver-top 0.4s cubic-bezier(0.39, 0.575, 0.565, 1)
+	-webkit-animation: scale-up-ver-top 1s cubic-bezier(0.39, 0.575, 0.565, 1)
 		both;
-	animation: scale-up-ver-top 0.4s cubic-bezier(0.39, 0.575, 0.565, 1) both;
+	animation: scale-up-ver-top 1s cubic-bezier(0.39, 0.575, 0.565, 1) both;
 }
 
 @-webkit-keyframes scale-up-ver-top {

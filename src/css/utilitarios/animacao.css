@@ -1,0 +1,75 @@
+[data-anime='show-down']section {
+	display: none;
+}
+
+[data-anime='show-down'].show-down.ativo {
+	display: block;
+	animation: show 1s forwards;
+}
+
+[data-anime='show-down'].show-down.ativo {
+	display: block;
+	animation: show-down 1s forwards;
+}
+
+@keyframes show-right {
+	from {
+		opacity: 0;
+		transform: translate3d(-30px, 0, 0);
+	}
+	to {
+		opacity: 1;
+		transform: translate3d(0, 0, 0);
+	}
+}
+
+@keyframes show-down {
+	from {
+		opacity: 0;
+		transform: translate3d(0, -60px, 0);
+	}
+	to {
+		opacity: 1;
+		transform: translate3d(0, 0, 0);
+	}
+}
+
+.js [data-anime='accordion'] dd {
+	display: none;
+}
+
+[data-anime='accordion'] dt::after {
+	content: '↴';
+	margin-left: 10px;
+}
+
+[data-anime='accordion'] dt.ativo::after {
+	content: '⬑';
+}
+
+[data-anime='accordion'] dd.ativo {
+	display: block;
+	animation: slideDown 0.5s forwards;
+}
+
+@keyframes slideDown {
+	from {
+		opacity: 0;
+		max-height: 0;
+	}
+	to {
+		max-height: 300px;
+		opacity: 1;
+	}
+}
+
+.js [data-anime='scroll'] {
+	opacity: 0;
+	transform: matrix3d(-30px, 0, 0);
+	transition: 0.3s;
+}
+
+.js [data-anime='scroll'].ativo {
+	opacity: 1;
+	transform: matrix3d(0, 0, 0);
+}
