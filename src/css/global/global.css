@@ -15,7 +15,6 @@ body {
 	color: var(--color-text);
 	font-family: sans-serif;
 	height: 100%;
-	padding: auto auto;
 	-webkit-font-smoothing: antialiased;
 }
 
@@ -53,7 +52,7 @@ img[src=''] {
 	z-index: 9999;
 
 	padding: 0.5rem;
-	clip-path: circle();
+	clip-path: circle(50%);
 
 	font-size: 1.5rem;
 	line-height: 0;
