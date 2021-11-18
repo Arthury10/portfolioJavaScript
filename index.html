@@ -21,8 +21,8 @@
 						<span class="cor-2">Arthur</span>
 					</h1>
 				</div>
-				<nav class="nav-deskotop nav-mobile">
-					<ul class="links-nav">
+				<nav class="nav-deskotop nav-mobile scale-up-ver-top" >
+					<ul class="links-nav ">
 						<li><a id="navHome">Inicio</a></li>
 						<li><a id="navAbout">Sobre</a></li>
 						<li><a id="navSkill">Skill</a></li>
@@ -33,13 +33,13 @@
 					</ul>
 				</nav>
 				<!--menu-->
-        <div class="icon-menu"><img src="assets/menu.svg" alt="menu-mobile"></div>
+        <div class="icon-menu" ><img src="assets/menu.svg" alt="menu-mobile"></div>
 				<!--menu-mobile-->
 			</div>
 		</header>
 		<!--header-->
 		<!--arrowtotop-->
-		<a href="#header" class="back-to-top"><img src="assets/arrow-up.svg" alt="" /></i></a>
+		<a href="#header" class="back-to-top" data-menu="suave"><img src="assets/arrow-up.svg" alt="" /></i></a>
 		<!--arrowtotop-->
 		<!--section-HOME-->
 		<section id="mhome" data-anime="show-down" class="home-bg tabsNav show-down"  >
@@ -276,76 +276,66 @@
 						</div>
 					</div>
 					<!--porjeto2-->
-					<div class="projetos">
-						<a class="item-projeto" href="#"
-							><img
-								src="assets/projetos/bikecraft.jpeg"
+					<div class="projetos show-down" data-anime="scroll" data-anime="show-down">
+						<img class="item-projeto"
+								src="assets/projetos/portfolio.png"
 								alt="Projeto-BikeCraft"
-						/></a>
+						/>
 						<div class="projeto-description">
-							<h2 class="texto">BikeCraft</h2>
-							<p>Desenvolvido no curso na Origamid</p>
-							<p>Tecnologias usadas</p>
-							<div class="tecnologias-usada">
-								<img
-									class="tecSkill"
-									src="assets/projetos/tecnologia/html5.svg"
-									alt="HTML"
-								/>
-								<img
-									class="tecSkill"
-									src="assets/projetos/tecnologia/css3.svg"
-									alt="CSS"
-								/>
+							<h3 class="portTitle">arthury10.io</h3>
+							<p class="portText"><span class="cor-2">></span> Página pessoal para utilizar como portfólio.</p>
+							<div class="tecnologia-usada-pack">
+								<p class="portText"><span class="cor-2">></span> Tecnologias usadas</p>
+								<div class="tecnologias-usada">
+									<img
+										class="tecSkill"
+										src="assets/projetos/tecnologia/html5.svg"
+										alt="HTML"
+									/>
+									<img
+										class="tecSkill"
+										src="assets/projetos/tecnologia/css3.svg"
+										alt="CSS"
+									/>
+									<img
+										class="tecSkill"
+										src="assets/projetos/tecnologia/javascript.svg"
+										alt="CSS"
+									/>
+								</div>
 							</div>
+							<a target="_blank" href="https://github.com/Arthury10/Arthury10.io" class="btnProjeto">VER NO GITHUB</a>
 						</div>
 					</div>
-					<div class="projetos">
-						<a class="item-projeto" href="#"
-							><img
-								src="assets/projetos/bikecraft.jpeg"
+					<div class="projetos show-down" data-anime="scroll" data-anime="show-down">
+						<img class="item-projeto"
+								src="assets/projetos/portfolio.png"
 								alt="Projeto-BikeCraft"
-						/></a>
+						/>
 						<div class="projeto-description">
-							<h2 class="texto">BikeCraft</h2>
-							<p>Desenvolvido no curso na Origamid</p>
-							<p>Tecnologias usadas</p>
-							<div class="tecnologias-usada">
-								<img
-									class="tecSkill"
-									src="assets/projetos/tecnologia/html5.svg"
-									alt="HTML"
-								/>
-								<img
-									class="tecSkill"
-									src="assets/projetos/tecnologia/css3.svg"
-									alt="CSS"
-								/>
+							<h3 class="portTitle">arthury10.io</h3>
+							<p class="portText"><span class="cor-2">></span> Página pessoal para utilizar como portfólio.</p>
+							<div class="tecnologia-usada-pack">
+								<p class="portText"><span class="cor-2">></span> Tecnologias usadas</p>
+								<div class="tecnologias-usada">
+									<img
+										class="tecSkill"
+										src="assets/projetos/tecnologia/html5.svg"
+										alt="HTML"
+									/>
+									<img
+										class="tecSkill"
+										src="assets/projetos/tecnologia/css3.svg"
+										alt="CSS"
+									/>
+									<img
+										class="tecSkill"
+										src="assets/projetos/tecnologia/javascript.svg"
+										alt="CSS"
+									/>
+								</div>
 							</div>
-						</div>
-					</div>
-					<div class="projetos">
-						<a class="item-projeto" href="#"
-							><img
-								src="assets/projetos/bikecraft.jpeg"
-								alt="Projeto-BikeCraft"
-						/></a>
-						<div class="projeto-description">
-							<h2 class="texto">BikeCraft</h2>
-							<p>Desenvolvido no curso na Origamid</p>
-							<p>Tecnologias usadas</p>
-							<div class="tecnologias-usada">
-								<img
-									class="tecSkill"
-									src="assets/projetos/tecnologia/html5.svg"
-									alt="HTML"
-								/>
-								<img
-									class="tecSkill"
-									src="assets/projetos/tecnologia/css3.svg"
-									alt="CSS"
-								/>
-							</div>
+							<a target="_blank" href="https://github.com/Arthury10/Arthury10.io" class="btnProjeto">VER NO GITHUB</a>
 						</div>
 					</div>
 				</div>
@@ -451,6 +441,7 @@
 			</div>
 		</footer>
 		<!--scripts-->
+		<script src="src/js/plugin/simple-slide.js"></script>
 		<script type="module" src="src/js/script.js"></script>
 		<script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.12/typed.min.js"></script>
 	</body>

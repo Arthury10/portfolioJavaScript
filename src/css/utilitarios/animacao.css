@@ -4,11 +4,6 @@
 
 [data-anime='show-down'].show-down.ativo {
 	display: block;
-	animation: show 1s forwards;
-}
-
-[data-anime='show-down'].show-down.ativo {
-	display: block;
 	animation: show-down 1s forwards;
 }
 
@@ -63,13 +58,13 @@
 	}
 }
 
-.js [data-anime='scroll'] {
+[data-anime='scroll'] {
 	opacity: 0;
-	transform: matrix3d(-30px, 0, 0);
-	transition: 0.3s;
+	transform: translate3d(0, -60px, 0);
+	transition: 1s;
 }
 
-.js [data-anime='scroll'].ativo {
+[data-anime='scroll'].scrollAnima {
 	opacity: 1;
-	transform: matrix3d(0, 0, 0);
+	transform: translate3d(0, 0, 0);
 }
