@@ -48,10 +48,11 @@
 	border-radius: 4px;
 	color: var(--color-text);
 	margin-left: 1rem;
+	margin-right: 1rem;
 }
 
 .btnContato:hover {
-	background: var(--color-primary);
+	background: var(--color-primary-bg2);
 }
 
 .typing {

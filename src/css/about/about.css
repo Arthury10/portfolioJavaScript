@@ -14,6 +14,7 @@
 	flex-wrap: wrap;
 	gap: 5rem;
 	align-items: center;
+	width: 90%;
 	height: 100%;
 	background: var(--color-primary-bg);
 	box-shadow: var(--color-secondary) 0px 10px 15px -5px;
@@ -70,9 +71,16 @@
 	}
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 650px) {
 	.about-text-dados {
-		flex-direction: column;
+		gap: 4rem;
+	}
+	.dados:first-child {
+		display: none;
+	}
+
+	.dados {
+		gap: 0.5rem;
 	}
 }
 
@@ -80,6 +88,9 @@
 	.about-text-persona p {
 		margin-top: 1rem;
 		line-height: 1.3;
+		gap: 1rem;
+		justify-content: space-around;
+		align-items: center;
 	}
 
 	.text-list {
@@ -87,5 +98,19 @@
 		flex: 1;
 		text-align: left;
 		font-weight: semibold;
+	}
+
+	.img-dados {
+		padding: 10px 10px;
+		background: var(--color-primary);
+		border-radius: 50%;
+	}
+
+	.dados h3 {
+		font-size: 1rem;
+	}
+
+	.dados a {
+		font-size: 0.75rem;
 	}
 }
