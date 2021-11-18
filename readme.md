@@ -4,4 +4,4 @@
 
 ## Fique a vontade para olhar e poder me ajudar com alguma sugestão de melhoria
 
-<img href="portfolio.png">
+<img src="assets/projetos/portfolio.png">
