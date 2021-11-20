@@ -57,20 +57,6 @@ nav .links-nav a:hover {
 	color: var(--color-secondary);
 }
 
-.icon-menu {
-	display: none;
-}
-
-.icon-menu {
-	color: var(--base-color);
-	font-size: 1.5rem;
-	cursor: pointer;
-}
-
-.openModalMobile {
-	display: block;
-}
-
 .navAtivo {
 	color: var(--color-secondary) !important;
 }
@@ -86,59 +72,15 @@ nav .links-nav a:hover {
 	}
 
 	.nav-desktop {
-		display: none;
+		display: hidden;
 	}
-
-	.nav-mobile {
-		display: block;
-	}
-
-	.icon-menu {
-		display: block;
-	}
-
-	/*modal menu*/
-	.nav-mobile .links-nav {
-		display: flex;
-		justify-content: center;
-		align-items: center;
-		flex-direction: column;
-	}
-
-	.nav-mobile {
-		margin: 0 auto;
-		padding: 20px 20px;
-		position: absolute;
-		z-index: 999;
-		left: 0;
-		width: 100%;
-		top: 135px;
-		background-color: var(--color-primary-bg);
-		display: none;
-		border-top: 0.1rem solid var(--color-secondary);
-		border-bottom: 0.1rem solid var(--color-secondary);
-	}
-
-	.nav-mobile .links-nav a {
-		padding: 0px;
-	}
-
-	.openModalMobile {
-		display: block;
-	}
-}
-
-@media screen and (max-width: 610px) {
-}
-
-@media screen and (max-width: 450px) {
 }
 
 /*animition*/
 .scale-up-ver-top {
-	-webkit-animation: scale-up-ver-top 1s cubic-bezier(0.39, 0.575, 0.565, 1)
+	-webkit-animation: scale-up-ver-top 0.5s cubic-bezier(0.39, 0.575, 0.565, 1)
 		both;
-	animation: scale-up-ver-top 1s cubic-bezier(0.39, 0.575, 0.565, 1) both;
+	animation: scale-up-ver-top 0.5s cubic-bezier(0.39, 0.575, 0.565, 1) both;
 }
 
 @-webkit-keyframes scale-up-ver-top {

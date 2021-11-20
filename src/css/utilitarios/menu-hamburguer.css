@@ -1,0 +1,114 @@
+/*menu hamburguer ativação*/
+.openModalMobile {
+	display: block;
+}
+
+/*---------------------------------*/
+
+#btn-mobile {
+	display: flex;
+	padding: 0.5rem 1rem;
+	font-size: 1rem;
+	border: none;
+	background: none;
+	cursor: pointer;
+	display: none;
+}
+
+#hamburger {
+	border-top: 5px solid;
+	width: 30px;
+	margin-right: 10px;
+	color: var(--color-secondary);
+}
+
+#hamburger::after,
+#hamburger::before {
+	content: '';
+	display: block;
+	width: 30px;
+	height: 5px;
+	background: currentColor;
+	margin-top: 5px;
+	transition: 0.3s;
+	position: relative;
+}
+
+.openModalMobile #hamburger {
+	border-top-color: transparent;
+}
+
+.openModalMobile #hamburger::before {
+	transform: rotate(135deg);
+}
+
+.openModalMobile #hamburger::after {
+	transform: rotate(-135deg);
+	top: -10px;
+}
+
+@media (max-width: 800px) {
+	/*menu hamburguer ativação*/
+
+	/*modal menu*/
+	.nav-mobile .links-nav {
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		flex-direction: column;
+	}
+
+	.nav-mobile {
+		margin: 0 auto;
+		padding: 20px 20px;
+		position: absolute;
+		z-index: 999;
+		left: 0;
+		width: 100%;
+		top: 135px;
+		background-color: var(--color-primary-bg);
+		border-top: 0.1rem solid var(--color-secondary);
+		border-bottom: 0.1rem solid var(--color-secondary);
+		display: none;
+	}
+
+	.nav-mobile .links-nav a {
+		padding: 0px;
+	}
+
+	.openModalMobile {
+		display: block;
+	}
+	/*menu hamburguer ativação*/
+
+	#btn-mobile {
+		display: flex;
+	}
+
+	#menu-hamb {
+		display: block;
+		position: absolute;
+		width: 100%;
+		top: 50px;
+		right: 0px;
+		height: 0px;
+		transition: 0.6s;
+		z-index: 1000;
+		visibility: hidden;
+		background-color: #2c70ffff;
+		overflow-y: hidden;
+	}
+
+	.openModalMobile #menu-hamb {
+		height: calc(70vh - 180px);
+		visibility: visible;
+		overflow-y: auto;
+	}
+
+	#menu-hamb {
+		padding: 1rem 0;
+		margin: 0 1 rem;
+		border-bottom: 2px solid var(--color-secondary);
+		text-align: center;
+	}
+}
