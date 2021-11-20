@@ -3,6 +3,10 @@
 	height: auto;
 }
 
+.footer.container {
+	margin: 0 auto;
+}
+
 .footer {
 	display: flex;
 	justify-content: center;

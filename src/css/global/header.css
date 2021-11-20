@@ -44,7 +44,7 @@ nav .links-nav a::after {
 	height: 2px;
 	width: 0px;
 	background: var(--color-secondary);
-	margin-top: 4px;
+	margin-top: 6px;
 	transition: 0.3s;
 	position: absolute;
 }
@@ -75,9 +75,10 @@ nav .links-nav a:hover {
 	color: var(--color-secondary) !important;
 }
 
-nav .links-nav a.navAtivo::after {
+/*corrigir mozila pois barra fica acima*/
+/* nav .links-nav a.navAtivo::after {
 	width: 100%;
-}
+} */
 
 @media screen and (max-width: 800px) {
 	.header {
