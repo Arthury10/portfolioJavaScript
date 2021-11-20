@@ -14,7 +14,7 @@
 	position: absolute;
 	height: 100%;
 	background-color: #0fd439;
-	animation: progress-animation 5s infinite;
+	animation: progress-animation 5s forwards;
 }
 
 @keyframes progress-animation {
@@ -28,4 +28,5 @@
 
 #bar-loading.desactiveLoad {
 	display: none;
+	transition: 1s forwards;
 }
