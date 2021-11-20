@@ -1,6 +1,9 @@
 /*global*/
 @import url('global/global.css');
 
+/*load*/
+@import url('global/load.css');
+
 /*cores*/
 @import url('utilitarios/cores.css');
 

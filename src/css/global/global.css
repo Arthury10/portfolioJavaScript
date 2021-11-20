@@ -27,6 +27,16 @@ img[src=''] {
 	border-radius: 4px;
 }
 
+/*load*/
+.loading {
+	display: none;
+}
+
+.load {
+	display: block;
+}
+/*load*/
+
 .container {
 	max-width: 1440px;
 	margin: 5rem auto;

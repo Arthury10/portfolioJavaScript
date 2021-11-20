@@ -10,507 +10,553 @@
 		/>
 		<title>Portfólio: Arthur Ropke(Em Desenvolvimento)</title>
 		<!--CSS-->
-		<link rel="stylesheet" href="src/css/style.min.css" />
+		<link rel="stylesheet" href="src/css/style.css" />
 	</head>
 	<body>
-		<!--header-->
-		<header class="header-bg scale-up-ver-top" id="header">
-			<div class="header">
-				<div class="logo">
-					<h1 class="cor-3">
-						<span class="cor-2">Arthur</span>
-					</h1>
-				</div>
-				<nav class="nav-deskotop nav-mobile scale-up-ver-top">
-					<ul class="links-nav">
-						<li><a id="navHome">Inicio</a></li>
-						<li><a id="navAbout">Sobre</a></li>
-						<li><a id="navSkill">Skill</a></li>
-						<li>
-							<a id="navPort">Portfólio</a>
-						</li>
-						<li><a id="navContato">Contato</a></li>
-					</ul>
-				</nav>
-				<!--menu-->
-				<div class="icon-menu">
-					<img src="assets/menu.svg" alt="menu-mobile" />
-				</div>
-				<!--menu-mobile-->
-			</div>
-		</header>
-		<!--header-->
-		<!--arrowtotop-->
-		<a href="#header" class="back-to-top" data-menu="suave"
-			><img src="assets/arrow-up.svg" alt=""
-		/></a>
-		<!--arrowtotop-->
-		<!--section-HOME-->
-		<section
-			id="mhome"
-			data-anime="show-down"
-			class="home-bg tabsNav show-down"
-		>
-			<div class="container section-home">
-				<div class="apresentation-text">
-					<p class="subtexto">Olá meu nome é</p>
-					<h1 class="subtitulo">Arthur Ropke</h1>
-					<p class="subtexto">Eu sou <span class="typing"></span></p>
-					<a
-						target="_blank"
-						rel="noopener"
-						href="assets/curriculo/Curriculo_ArthurRopke.pdf"
-						><button id="btnHome" class="btnHome">
-							Baixar CV
-						</button></a
-					>
-					<button
-						id="btnHomeContato"
-						class="btnHome btnContato open-form-home"
-					>
-						Entrar em contato
-					</button>
-				</div>
-				<div class="apresentation-img">
-					<div class="card">
-						<img
-							src="assets/Passaporte-react-js.png"
-							alt="Passaporte-react-js"
-						/>
+		<div id="bar-loading">
+			<div class="progress-bar"></div>
+		</div>
+		<!--loading-->
+		<div class="loading">
+			<!--header-->
+			<header class="header-bg scale-up-ver-top" id="header">
+				<div class="header">
+					<div class="logo">
+						<h1 class="cor-3">
+							<span class="cor-2">Arthur</span>
+						</h1>
 					</div>
-				</div>
-			</div>
-		</section>
-		<!--section-HOME-->
-		<!--section-about-->
-		<section
-			id="mabout"
-			data-anime="show-down"
-			class="about-bg tabsNav show-down"
-		>
-			<div class="container section-about">
-				<div class="about-text-persona">
-					<h2 class="subtexto">Sobre</h2>
-					<p class="texto-pequeno cor-4">
-						Olá, me chamo Arthur e tenho 20 anos, atualmente estudo
-						Análise e Desenvolvimento de Sistemas no Senac Pelotas.
-						Sou Gaúcho e resido na cidade de Morro Redondo. Eu amo
-						programar, sou alegre, divertido, gosto de conversar e
-						aprender coisas novas, além disso adoro escutar pessoas
-						e levar suas experiências de vida como motivação e
-						aprendizado.
-					</p>
-				</div>
-				<div class="about-text-dados">
-					<div class="dados">
-						<div class="img-dados">
-							<img src="assets/about/smille.svg" alt="Meu nome" />
-						</div>
-						<h3>Meu Nome</h3>
-						<p class="cor-4">Arthur Ropke</p>
+					<nav class="nav-deskotop nav-mobile scale-up-ver-top">
+						<ul class="links-nav">
+							<li><a id="navHome">Inicio</a></li>
+							<li><a id="navAbout">Sobre</a></li>
+							<li><a id="navSkill">Skill</a></li>
+							<li>
+								<a id="navPort">Portfólio</a>
+							</li>
+							<li><a id="navContato">Contato</a></li>
+						</ul>
+					</nav>
+					<!--menu-->
+					<div class="icon-menu">
+						<img src="assets/menu.svg" alt="menu-mobile" />
 					</div>
-					<div class="dados">
-						<div class="img-dados">
-							<img src="assets/about/mail.svg" alt="Meu email" />
-						</div>
-						<h3>E-mail</h3>
+					<!--menu-mobile-->
+				</div>
+			</header>
+			<!--header-->
+			<!--arrowtotop-->
+			<a href="#header" class="back-to-top" data-menu="suave"
+				><img src="assets/arrow-up.svg" alt=""
+			/></a>
+			<!--arrowtotop-->
+			<!--section-HOME-->
+			<section
+				id="mhome"
+				data-anime="show-down"
+				class="home-bg tabsNav show-down"
+			>
+				<div class="container section-home">
+					<div class="apresentation-text">
+						<p class="subtexto">Olá meu nome é</p>
+						<h1 class="subtitulo">Arthur Ropke</h1>
+						<p class="subtexto">
+							Eu sou <span class="typing"></span>
+						</p>
 						<a
-							class="cor-4"
-							rel="noopener"
 							target="_blank"
-							href="mailto:arthurropke@hotmail.com?"
-							>arthurropke@hotmail.com</a
+							rel="noopener"
+							href="assets/curriculo/Curriculo_ArthurRopke.pdf"
+							><button id="btnHome" class="btnHome">
+								Baixar CV
+							</button></a
 						>
+						<button
+							id="btnHomeContato"
+							class="btnHome btnContato open-form-home"
+						>
+							Entrar em contato
+						</button>
 					</div>
-					<div class="dados">
-						<div class="img-dados">
+					<div class="apresentation-img">
+						<div class="card">
 							<img
-								src="assets/about/phone.svg"
-								alt="Meu telefone"
+								src="assets/Passaporte-react-js.png"
+								alt="Passaporte-react-js"
 							/>
 						</div>
-						<h3>Telefone</h3>
-						<a
-							class="cor-4"
-							rel="noopener"
-							target="_blank"
-							href="https://web.whatsapp.com/send?phone=5553981374942"
-							>(53) 98137-4942</a
-						>
 					</div>
 				</div>
-			</div>
-		</section>
-		<!--section-about-->
-		<section
-			id="mskill"
-			data-anime="show-down"
-			class="formacao tabsNav show-down"
-			aria-label="Formação"
-		>
-			<div class="formacao-container container">
-				<div class="subtitulo-skill">
-					<h2 class="subtitulo">Skills</h2>
-					<div class="pack-tecnologia">
-						<div class="tecnologia">
-							<div class="img-tecnologia">
-								<img src="assets/skill/html5.svg" alt="HTML" />
-							</div>
-							<h3>HTML</h3>
-						</div>
-						<div class="tecnologia">
-							<div class="img-tecnologia">
-								<img src="assets/skill/css3.svg" alt="CSS" />
-							</div>
-							<h3>CSS</h3>
-						</div>
-						<div class="tecnologia">
-							<div class="img-tecnologia">
+			</section>
+			<!--section-HOME-->
+			<!--section-about-->
+			<section
+				id="mabout"
+				data-anime="show-down"
+				class="about-bg tabsNav show-down"
+			>
+				<div class="container section-about">
+					<div class="about-text-persona">
+						<h2 class="subtexto">Sobre</h2>
+						<p class="texto-pequeno cor-4">
+							Olá, me chamo Arthur e tenho 20 anos, atualmente
+							estudo Análise e Desenvolvimento de Sistemas no
+							Senac Pelotas. Sou Gaúcho e resido na cidade de
+							Morro Redondo. Eu amo programar, sou alegre,
+							divertido, gosto de conversar e aprender coisas
+							novas, além disso adoro escutar pessoas e levar suas
+							experiências de vida como motivação e aprendizado.
+						</p>
+					</div>
+					<div class="about-text-dados">
+						<div class="dados">
+							<div class="img-dados">
 								<img
-									src="assets/skill/javascript.svg"
-									alt="JAVASCRIPT"
+									src="assets/about/smille.svg"
+									alt="Meu nome"
 								/>
 							</div>
-							<h3>JAVASCRIPT</h3>
+							<h3>Meu Nome</h3>
+							<p class="cor-4">Arthur Ropke</p>
+						</div>
+						<div class="dados">
+							<div class="img-dados">
+								<img
+									src="assets/about/mail.svg"
+									alt="Meu email"
+								/>
+							</div>
+							<h3>E-mail</h3>
+							<a
+								class="cor-4"
+								rel="noopener"
+								target="_blank"
+								href="mailto:arthurropke@hotmail.com?"
+								>arthurropke@hotmail.com</a
+							>
+						</div>
+						<div class="dados">
+							<div class="img-dados">
+								<img
+									src="assets/about/phone.svg"
+									alt="Meu telefone"
+								/>
+							</div>
+							<h3>Telefone</h3>
+							<a
+								class="cor-4"
+								rel="noopener"
+								target="_blank"
+								href="https://web.whatsapp.com/send?phone=5553981374942"
+								>(53) 98137-4942</a
+							>
 						</div>
 					</div>
 				</div>
-				<div class="list-facul-type">
-					<p class="formacao-texto">
-						Atualmente estou estudando pelos cursos da
-						<strong>Origamid</strong> e <strong>Rocketseat</strong>
-						<strong>Ignite</strong> e estou aprendendo a desenvolver
-						aplicações web com <strong>HTML</strong>,
-						<strong>CSS</strong>, <strong>JAVASCRIPT</strong>,
-						<strong>REACT</strong>.
-					</p>
-					<ul class="faculdade-lista">
-						<li class="faculdade">
-							<span class="faculdade-tipo">Curso Superior</span>
-							<h3 class="faculdade-curso">
-								Análise e Desenvolvimento de Sistemas
-							</h3>
-							<span class="faculdade-instituicao"
-								>Senac Pelotas</span
-							>
-							<span>2021 - 2024</span>
-						</li>
-						<li class="faculdade">
-							<span class="faculdade-tipo">Curso Intensivo</span>
-							<h3 class="faculdade-curso">Web Design</h3>
-							<span class="faculdade-instituicao">Origamid</span>
-							<span>Completo</span>
-						</li>
-						<li class="faculdade">
-							<span class="faculdade-tipo">Curso Intensivo</span>
-							<h3 class="faculdade-curso">HTML e CSS</h3>
-							<span class="faculdade-instituicao">Origamid</span>
-							<span>Completo</span>
-						</li>
-						<li class="faculdade">
-							<span class="faculdade-tipo">Curso Intensivo</span>
-							<h3 class="faculdade-curso">
-								JavaScript completo ES6
-							</h3>
-							<span class="faculdade-instituicao">Origamid</span>
-							<span>Cursando</span>
-						</li>
-						<li class="faculdade">
-							<span class="faculdade-tipo">Curso Intensivo</span>
-							<h3 class="faculdade-curso">ReactJS</h3>
-							<span class="faculdade-instituicao"
-								>Rocketseat Ignite</span
-							>
-							<span>Cursando</span>
-						</li>
-						<li class="faculdade">
-							<span class="faculdade-tipo">Curso Intensivo</span>
-							<h3 class="faculdade-curso">Inglês</h3>
-							<span class="faculdade-instituicao">TopWay</span>
-							<span>Cursando</span>
-						</li>
-					</ul>
-				</div>
-			</div>
-		</section>
-		<section
-			data-anime="show-down"
-			id="mportifolio"
-			class="portifolio-bg tabsNav show-down"
-		>
-			<div class="section-portifolio container">
-				<h1 class="titulo">Projetos</h1>
-				<div class="carrousel">
-					<div class="projetos">
-						<img
-							class="item-projeto"
-							src="assets/projetos/portfolio.png"
-							alt="Projeto-BikeCraft"
-						/>
-						<div class="projeto-description">
-							<h3 class="portTitle">arthury10.io</h3>
-							<p class="portText">
-								<span class="cor-2">></span> Página pessoal para
-								utilizar como portfólio.
-							</p>
-							<div class="tecnologia-usada-pack">
-								<p class="portText">
-									<span class="cor-2">></span> Tecnologias
-									usadas
-								</p>
-								<div class="tecnologias-usada">
+			</section>
+			<!--section-about-->
+			<section
+				id="mskill"
+				data-anime="show-down"
+				class="formacao tabsNav show-down"
+				aria-label="Formação"
+			>
+				<div class="formacao-container container">
+					<div class="subtitulo-skill">
+						<h2 class="subtitulo">Skills</h2>
+						<div class="pack-tecnologia">
+							<div class="tecnologia">
+								<div class="img-tecnologia">
 									<img
-										class="tecSkill"
-										src="assets/projetos/tecnologia/html5.svg"
+										src="assets/skill/html5.svg"
 										alt="HTML"
 									/>
+								</div>
+								<h3>HTML</h3>
+							</div>
+							<div class="tecnologia">
+								<div class="img-tecnologia">
 									<img
-										class="tecSkill"
-										src="assets/projetos/tecnologia/css3.svg"
-										alt="CSS"
-									/>
-									<img
-										class="tecSkill"
-										src="assets/projetos/tecnologia/javascript.svg"
+										src="assets/skill/css3.svg"
 										alt="CSS"
 									/>
 								</div>
+								<h3>CSS</h3>
 							</div>
-							<a
-								target="_blank"
-								rel="noopener"
-								href="https://github.com/Arthury10/Arthury10.io"
-								class="btnProjeto"
-								>VER NO GITHUB</a
-							>
-						</div>
-					</div>
-					<!--porjeto2-->
-					<div
-						class="projetos show-down"
-						data-anime="scroll"
-						data-anime="show-down"
-					>
-						<img
-							class="item-projeto"
-							src="assets/projetos/portfolio.png"
-							alt="Projeto-BikeCraft"
-						/>
-						<div class="projeto-description">
-							<h3 class="portTitle">arthury10.io</h3>
-							<p class="portText">
-								<span class="cor-2">></span> Página pessoal para
-								utilizar como portfólio.
-							</p>
-							<div class="tecnologia-usada-pack">
-								<p class="portText">
-									<span class="cor-2">></span> Tecnologias
-									usadas
-								</p>
-								<div class="tecnologias-usada">
+							<div class="tecnologia">
+								<div class="img-tecnologia">
 									<img
-										class="tecSkill"
-										src="assets/projetos/tecnologia/html5.svg"
-										alt="HTML"
-									/>
-									<img
-										class="tecSkill"
-										src="assets/projetos/tecnologia/css3.svg"
-										alt="CSS"
-									/>
-									<img
-										class="tecSkill"
-										src="assets/projetos/tecnologia/javascript.svg"
-										alt="CSS"
+										src="assets/skill/javascript.svg"
+										alt="JAVASCRIPT"
 									/>
 								</div>
+								<h3>JAVASCRIPT</h3>
 							</div>
-							<a
-								target="_blank"
-								rel="noopener"
-								href="https://github.com/Arthury10/Arthury10.io"
-								class="btnProjeto"
-								>VER NO GITHUB</a
-							>
 						</div>
 					</div>
-					<div
-						class="projetos show-down"
-						data-anime="scroll"
-						data-anime="show-down"
-					>
-						<img
-							class="item-projeto"
-							src="assets/projetos/portfolio.png"
-							alt="Projeto-BikeCraft"
-						/>
-						<div class="projeto-description">
-							<h3 class="portTitle">arthury10.io</h3>
-							<p class="portText">
-								<span class="cor-2">></span> Página pessoal para
-								utilizar como portfólio.
-							</p>
-							<div class="tecnologia-usada-pack">
+					<div class="list-facul-type">
+						<p class="formacao-texto">
+							Atualmente estou estudando pelos cursos da
+							<strong>Origamid</strong> e
+							<strong>Rocketseat</strong>
+							<strong>Ignite</strong> e estou aprendendo a
+							desenvolver aplicações web com
+							<strong>HTML</strong>, <strong>CSS</strong>,
+							<strong>JAVASCRIPT</strong>, <strong>REACT</strong>.
+						</p>
+						<ul class="faculdade-lista">
+							<li class="faculdade">
+								<span class="faculdade-tipo"
+									>Curso Superior</span
+								>
+								<h3 class="faculdade-curso">
+									Análise e Desenvolvimento de Sistemas
+								</h3>
+								<span class="faculdade-instituicao"
+									>Senac Pelotas</span
+								>
+								<span>2021 - 2024</span>
+							</li>
+							<li class="faculdade">
+								<span class="faculdade-tipo"
+									>Curso Intensivo</span
+								>
+								<h3 class="faculdade-curso">Web Design</h3>
+								<span class="faculdade-instituicao"
+									>Origamid</span
+								>
+								<span>Completo</span>
+							</li>
+							<li class="faculdade">
+								<span class="faculdade-tipo"
+									>Curso Intensivo</span
+								>
+								<h3 class="faculdade-curso">HTML e CSS</h3>
+								<span class="faculdade-instituicao"
+									>Origamid</span
+								>
+								<span>Completo</span>
+							</li>
+							<li class="faculdade">
+								<span class="faculdade-tipo"
+									>Curso Intensivo</span
+								>
+								<h3 class="faculdade-curso">
+									JavaScript completo ES6
+								</h3>
+								<span class="faculdade-instituicao"
+									>Origamid</span
+								>
+								<span>Cursando</span>
+							</li>
+							<li class="faculdade">
+								<span class="faculdade-tipo"
+									>Curso Intensivo</span
+								>
+								<h3 class="faculdade-curso">ReactJS</h3>
+								<span class="faculdade-instituicao"
+									>Rocketseat Ignite</span
+								>
+								<span>Cursando</span>
+							</li>
+							<li class="faculdade">
+								<span class="faculdade-tipo"
+									>Curso Intensivo</span
+								>
+								<h3 class="faculdade-curso">Inglês</h3>
+								<span class="faculdade-instituicao"
+									>TopWay</span
+								>
+								<span>Cursando</span>
+							</li>
+						</ul>
+					</div>
+				</div>
+			</section>
+			<section
+				data-anime="show-down"
+				id="mportifolio"
+				class="portifolio-bg tabsNav show-down"
+			>
+				<div class="section-portifolio container">
+					<h1 class="titulo">Projetos</h1>
+					<div class="carrousel">
+						<div class="projetos">
+							<img
+								class="item-projeto"
+								src="assets/projetos/portfolio.png"
+								alt="Projeto-BikeCraft"
+							/>
+							<div class="projeto-description">
+								<h3 class="portTitle">arthury10.io</h3>
 								<p class="portText">
-									<span class="cor-2">></span> Tecnologias
-									usadas
+									<span class="cor-2">></span> Página pessoal
+									para utilizar como portfólio.
 								</p>
-								<div class="tecnologias-usada">
-									<img
-										class="tecSkill"
-										src="assets/projetos/tecnologia/html5.svg"
-										alt="HTML"
-									/>
-									<img
-										class="tecSkill"
-										src="assets/projetos/tecnologia/css3.svg"
-										alt="CSS"
-									/>
-									<img
-										class="tecSkill"
-										src="assets/projetos/tecnologia/javascript.svg"
-										alt="CSS"
-									/>
+								<div class="tecnologia-usada-pack">
+									<p class="portText">
+										<span class="cor-2">></span> Tecnologias
+										usadas
+									</p>
+									<div class="tecnologias-usada">
+										<img
+											class="tecSkill"
+											src="assets/projetos/tecnologia/html5.svg"
+											alt="HTML"
+										/>
+										<img
+											class="tecSkill"
+											src="assets/projetos/tecnologia/css3.svg"
+											alt="CSS"
+										/>
+										<img
+											class="tecSkill"
+											src="assets/projetos/tecnologia/javascript.svg"
+											alt="CSS"
+										/>
+									</div>
 								</div>
+								<a
+									target="_blank"
+									rel="noopener"
+									href="https://github.com/Arthury10/Arthury10.io"
+									class="btnProjeto"
+									>VER NO GITHUB</a
+								>
 							</div>
-							<a
-								target="_blank"
-								rel="noopener"
-								href="https://github.com/Arthury10/Arthury10.io"
-								class="btnProjeto"
-								>VER NO GITHUB</a
-							>
+						</div>
+						<!--porjeto2-->
+						<div
+							class="projetos show-down"
+							data-anime="scroll"
+							data-anime="show-down"
+						>
+							<img
+								class="item-projeto"
+								src="assets/projetos/portfolio.png"
+								alt="Projeto-BikeCraft"
+							/>
+							<div class="projeto-description">
+								<h3 class="portTitle">arthury10.io</h3>
+								<p class="portText">
+									<span class="cor-2">></span> Página pessoal
+									para utilizar como portfólio.
+								</p>
+								<div class="tecnologia-usada-pack">
+									<p class="portText">
+										<span class="cor-2">></span> Tecnologias
+										usadas
+									</p>
+									<div class="tecnologias-usada">
+										<img
+											class="tecSkill"
+											src="assets/projetos/tecnologia/html5.svg"
+											alt="HTML"
+										/>
+										<img
+											class="tecSkill"
+											src="assets/projetos/tecnologia/css3.svg"
+											alt="CSS"
+										/>
+										<img
+											class="tecSkill"
+											src="assets/projetos/tecnologia/javascript.svg"
+											alt="CSS"
+										/>
+									</div>
+								</div>
+								<a
+									target="_blank"
+									rel="noopener"
+									href="https://github.com/Arthury10/Arthury10.io"
+									class="btnProjeto"
+									>VER NO GITHUB</a
+								>
+							</div>
+						</div>
+						<div
+							class="projetos show-down"
+							data-anime="scroll"
+							data-anime="show-down"
+						>
+							<img
+								class="item-projeto"
+								src="assets/projetos/portfolio.png"
+								alt="Projeto-BikeCraft"
+							/>
+							<div class="projeto-description">
+								<h3 class="portTitle">arthury10.io</h3>
+								<p class="portText">
+									<span class="cor-2">></span> Página pessoal
+									para utilizar como portfólio.
+								</p>
+								<div class="tecnologia-usada-pack">
+									<p class="portText">
+										<span class="cor-2">></span> Tecnologias
+										usadas
+									</p>
+									<div class="tecnologias-usada">
+										<img
+											class="tecSkill"
+											src="assets/projetos/tecnologia/html5.svg"
+											alt="HTML"
+										/>
+										<img
+											class="tecSkill"
+											src="assets/projetos/tecnologia/css3.svg"
+											alt="CSS"
+										/>
+										<img
+											class="tecSkill"
+											src="assets/projetos/tecnologia/javascript.svg"
+											alt="CSS"
+										/>
+									</div>
+								</div>
+								<a
+									target="_blank"
+									rel="noopener"
+									href="https://github.com/Arthury10/Arthury10.io"
+									class="btnProjeto"
+									>VER NO GITHUB</a
+								>
+							</div>
 						</div>
 					</div>
 				</div>
-			</div>
-		</section>
-		<!--CONTATO-->
-		<section
-			id="mcontato"
-			data-anime="show-down"
-			class="contato-bg tabsNav show-down"
-		>
-			<div class="container">
-				<form
-					class="section-contato"
-					action="https://formspree.io/f/xdoyrdlr"
-					method="post"
-					target="_blanck"
-				>
-					<h2 class="texto">Contato</h2>
-					<div class="form-group">
-						<input
-							type="text"
-							class="form-control"
-							id="name"
-							placeholder="Nome"
-							name="name"
-							required
-						/>
-					</div>
-					<div class="form-group">
-						<input
-							type="email"
-							class="form-control"
-							id="email"
-							placeholder="E-mail"
-							name="email"
-							required
-						/>
-					</div>
-					<div class="form-group">
-						<input
-							type="text"
-							class="form-control"
-							id="assunto"
-							placeholder="Assunto"
-							name="Subject"
-							required
-						/>
-					</div>
-					<div class="form-group">
-						<textarea
-							class="form-control"
-							id="mensagem"
-							rows="3"
-							placeholder="Sua Mensagem"
-							name="message"
-							required
-						></textarea>
-					</div>
-					<button type="submit" id="btnContato" class="btn btnHome">
-						Enviar
-					</button>
-					<div class="sucesso">
-						<h2>
-							Agradeço o contato, retornarei o mais breve
-							possível!
-						</h2>
-					</div>
-				</form>
-			</div>
-		</section>
-		<!--CONTATO-->
-		<footer class="footer-bg scale-up-ver-top" id="footer">
-			<div class="footer container">
-				<div class="redes-sociais">
-					<a
-						class="hvr-float-shadow"
-						target="_blank"
-						rel="noopener"
-						href="https://github.com/Arthury10"
-					>
-						<img
-							src="assets/projetos/redes/github.svg"
-							alt="github-logo"
-						/>
-					</a>
-
-					<a
-						class="hvr-float-shadow"
-						target="_blank"
-						rel="noopener"
-						href="https://www.linkedin.com/in/arthur-ropke/"
-					>
-						<img
-							src="assets/projetos/redes/linkedin.svg"
-							alt="linkedin-logo"
-						/>
-					</a>
-					<a
-						class="hvr-float-shadow"
-						target="_blank"
-						rel="noopener"
-						href="https://www.instagram.com/arthurropkede/"
-						><img
-							src="assets/projetos/redes/instagram.svg"
-							alt="instagran-logo"
-					/></a>
-					<a
-						class="hvr-float-shadow"
-						target="_blank"
-						rel="noopener"
-						href="https://www.facebook.com/arthur.ropkedemoraes"
-					>
-						<img
-							class="hvr-float-shadow"
-							src="assets/projetos/redes/facebook.svg"
-							alt="facebook-logo"
-						/>
-					</a>
-				</div>
-				<p>
-					<a
+			</section>
+			<!--CONTATO-->
+			<section
+				id="mcontato"
+				data-anime="show-down"
+				class="contato-bg tabsNav show-down"
+			>
+				<div class="container">
+					<form
+						class="section-contato"
+						action="https://formspree.io/f/xdoyrdlr"
+						method="post"
 						target="_blanck"
-						rel="noopener"
-						href="https://www.linkedin.com/in/arthur-ropke/"
-						>Arthur Ropke</a
 					>
-					©All rights reserved.
-				</p>
-			</div>
-		</footer>
+						<h2 class="texto">Contato</h2>
+						<div class="form-group">
+							<input
+								type="text"
+								class="form-control"
+								id="name"
+								placeholder="Nome"
+								name="name"
+								required
+							/>
+						</div>
+						<div class="form-group">
+							<input
+								type="email"
+								class="form-control"
+								id="email"
+								placeholder="E-mail"
+								name="email"
+								required
+							/>
+						</div>
+						<div class="form-group">
+							<input
+								type="text"
+								class="form-control"
+								id="assunto"
+								placeholder="Assunto"
+								name="Subject"
+								required
+							/>
+						</div>
+						<div class="form-group">
+							<textarea
+								class="form-control"
+								id="mensagem"
+								rows="3"
+								placeholder="Sua Mensagem"
+								name="message"
+								required
+							></textarea>
+						</div>
+						<button
+							type="submit"
+							id="btnContato"
+							class="btn btnHome"
+						>
+							Enviar
+						</button>
+						<div class="sucesso">
+							<h2>
+								Agradeço o contato, retornarei o mais breve
+								possível!
+							</h2>
+						</div>
+					</form>
+				</div>
+			</section>
+			<!--CONTATO-->
+			<footer class="footer-bg scale-up-ver-top" id="footer">
+				<div class="footer container">
+					<div class="redes-sociais">
+						<a
+							class="hvr-float-shadow"
+							target="_blank"
+							rel="noopener"
+							href="https://github.com/Arthury10"
+						>
+							<img
+								src="assets/projetos/redes/github.svg"
+								alt="github-logo"
+							/>
+						</a>
+
+						<a
+							class="hvr-float-shadow"
+							target="_blank"
+							rel="noopener"
+							href="https://www.linkedin.com/in/arthur-ropke/"
+						>
+							<img
+								src="assets/projetos/redes/linkedin.svg"
+								alt="linkedin-logo"
+							/>
+						</a>
+						<a
+							class="hvr-float-shadow"
+							target="_blank"
+							rel="noopener"
+							href="https://www.instagram.com/arthurropkede/"
+							><img
+								src="assets/projetos/redes/instagram.svg"
+								alt="instagran-logo"
+						/></a>
+						<a
+							class="hvr-float-shadow"
+							target="_blank"
+							rel="noopener"
+							href="https://www.facebook.com/arthur.ropkedemoraes"
+						>
+							<img
+								class="hvr-float-shadow"
+								src="assets/projetos/redes/facebook.svg"
+								alt="facebook-logo"
+							/>
+						</a>
+					</div>
+					<p>
+						<a
+							target="_blanck"
+							rel="noopener"
+							href="https://www.linkedin.com/in/arthur-ropke/"
+							>Arthur Ropke</a
+						>
+						©All rights reserved.
+					</p>
+				</div>
+			</footer>
+		</div>
+		<!--loading-->
 		<!--scripts-->
 		<script src="src/js/plugin/simple-slide.js"></script>
 		<script type="module" src="src/js/script.js"></script>
