@@ -1,7 +1,3 @@
-.formacao {
-	background: var(--color-primary);
-}
-
 .formacao-container {
 	display: grid;
 	grid-template-columns: 1fr 2fr;

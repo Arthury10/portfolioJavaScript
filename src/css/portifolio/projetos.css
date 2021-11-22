@@ -1,7 +1,3 @@
-.portifolio-bg {
-	background-color: var(--color-primary);
-}
-
 .section-portifolio {
 	display: flex;
 	flex-direction: column;
@@ -111,7 +107,6 @@
 	.projetos .item-projeto {
 		width: 100%;
 		height: auto;
-		padding: 20px 20px;
 		background: var(--color-primary-bg);
 	}
 
