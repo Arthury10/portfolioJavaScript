@@ -60,33 +60,28 @@
 				class="home-bg tabsNav show-down"
 			>
 				<div class="container section-home">
+					<div id="particles-container"></div>
 					<div class="apresentation-text" data-tilt>
 						<p class="subtexto">Olá meu nome é</p>
 						<h1 class="subtitulo">Arthur Ropke</h1>
 						<p class="subtexto">
 							Eu sou <span class="typing"></span>
 						</p>
-						<a
-							target="_blank"
-							rel="noopener"
-							href="assets/curriculo/Curriculo_ArthurRopke.pdf"
-							><button id="btnHome" class="btnHome">
-								Baixar CV
-							</button></a
-						>
-						<button
-							id="btnHomeContato"
-							class="btnHome btnContato open-form-home"
-						>
-							Entrar em contato
-						</button>
-					</div>
-					<div class="apresentation-img">
-						<div class="card" data-tilt>
-							<img
-								src="assets/Passaporte-react-js.png"
-								alt="Passaporte-react-js"
-							/>
+						<div class="buttons">
+							<a
+								target="_blank"
+								rel="noopener"
+								href="assets/curriculo/Curriculo_ArthurRopke.pdf"
+								><button id="btnHome" class="btnHome">
+									Baixar CV
+								</button></a
+							>
+							<button
+								id="btnHomeContato"
+								class="btnHome btnContato open-form-home"
+							>
+								Entrar em contato
+							</button>
 						</div>
 					</div>
 				</div>
@@ -289,6 +284,7 @@
 								class="item-projeto"
 								src="assets/projetos/portfolio.png"
 								alt="Projeto-BikeCraft"
+								data-tilt
 							/>
 							<div class="projeto-description">
 								<h3 class="portTitle">arthury10.io</h3>
@@ -561,6 +557,7 @@
 		</div>
 		<!--loading-->
 		<!--scripts-->
+		<script src="http://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
 		<script src="src/js/plugin/cards.js"></script>
 		<script type="module" src="src/js/script.js"></script>
 		<script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.12/typed.min.js"></script>

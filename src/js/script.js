@@ -5,6 +5,7 @@ import formMenu from './modules/form.js'
 import arrowToUp from './modules/arrowToUp.js'
 import initAnimacaoScroll from './modules/scroll-animacao.js'
 import initScrollSuave from './modules/scroll-suave.js'
+import particles from './modules/particles.js'
 
 load()
 navMenu()
@@ -12,3 +13,4 @@ typed()
 arrowToUp()
 initAnimacaoScroll()
 initScrollSuave()
+particles()
