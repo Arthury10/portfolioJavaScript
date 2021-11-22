@@ -15,6 +15,7 @@ export default function navMenu() {
 			navMenu.forEach(section => {
 				section.classList.remove('navAtivo')
 			})
+
 			modalMenu[index].classList.add('ativo')
 			navMenu[index].classList.add('navAtivo')
 		}

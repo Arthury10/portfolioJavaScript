@@ -10,7 +10,7 @@
 		/>
 		<title>Portfólio: Arthur Ropke(Em Desenvolvimento)</title>
 		<!--CSS-->
-		<link rel="stylesheet" href="src/css/style.css" />
+		<link rel="stylesheet" href="src/css/style.min.css" />
 	</head>
 	<body>
 		<div id="particles-container"></div>
@@ -62,7 +62,7 @@
 			>
 				<div class="container section-home">
 					<div class="apresentation-text" data-tilt>
-						<p class="subtexto">Olá meu nome é</p>
+						<p class="subtexto" data-intro="">Olá meu nome é</p>
 						<h1 class="subtitulo">Arthur Ropke</h1>
 						<p class="subtexto">
 							Eu sou <span class="typing"></span>
@@ -371,17 +371,20 @@
 								class="item-projeto"
 								src="assets/projetos/portfolio.png"
 								alt="Projeto-BikeCraft"
+								data-tilt
 							/>
 						</div>
 						<div
 							class="projetos show-down"
 							data-anime="scroll"
 							data-anime="show-down"
+							data-tilt
 						>
 							<img
 								class="item-projeto"
 								src="assets/projetos/portfolio.png"
 								alt="Projeto-BikeCraft"
+								data-tilt
 							/>
 							<div class="projeto-description">
 								<h3 class="portTitle">arthury10.io</h3>
@@ -556,10 +559,11 @@
 			</footer>
 		</div>
 		<!--loading-->
-		<!--scripts-->
+		<!--plugins-->
 		<script src="src/js/plugin/particles.js"></script>
 		<script src="src/js/plugin/cards.js"></script>
-		<script type="module" src="src/js/script.js"></script>
 		<script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.12/typed.min.js"></script>
+		<!--scripts-->
+		<script type="module" src="src/js/script.js"></script>
 	</body>
 </html>
