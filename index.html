@@ -26,7 +26,10 @@
 							<span class="cor-2">Arthur</span>
 						</h1>
 					</div>
-					<nav class="nav-deskotop nav-mobile scale-up-ver-top">
+					<nav
+						class="nav-deskotop nav-mobile"
+						data-fadeIn="fadeInDown"
+					>
 						<ul class="links-nav">
 							<li><a id="navHome">Inicio</a></li>
 							<li><a id="navAbout">Sobre</a></li>
@@ -57,7 +60,7 @@
 				class="home-bg tabsNav show-down"
 			>
 				<div class="container section-home">
-					<div class="apresentation-text">
+					<div class="apresentation-text" data-tilt>
 						<p class="subtexto">Olá meu nome é</p>
 						<h1 class="subtitulo">Arthur Ropke</h1>
 						<p class="subtexto">
@@ -79,7 +82,7 @@
 						</button>
 					</div>
 					<div class="apresentation-img">
-						<div class="card">
+						<div class="card" data-tilt>
 							<img
 								src="assets/Passaporte-react-js.png"
 								alt="Passaporte-react-js"
@@ -165,7 +168,7 @@
 					<div class="subtitulo-skill">
 						<h2 class="subtitulo">Skills</h2>
 						<div class="pack-tecnologia">
-							<div class="tecnologia">
+							<div class="tecnologia" data-tilt>
 								<div class="img-tecnologia">
 									<img
 										src="assets/skill/html5.svg"
@@ -174,7 +177,7 @@
 								</div>
 								<h3>HTML</h3>
 							</div>
-							<div class="tecnologia">
+							<div class="tecnologia" data-tilt>
 								<div class="img-tecnologia">
 									<img
 										src="assets/skill/css3.svg"
@@ -183,7 +186,7 @@
 								</div>
 								<h3>CSS</h3>
 							</div>
-							<div class="tecnologia">
+							<div class="tecnologia" data-tilt>
 								<div class="img-tecnologia">
 									<img
 										src="assets/skill/javascript.svg"
@@ -205,7 +208,7 @@
 							<strong>JAVASCRIPT</strong>, <strong>REACT</strong>.
 						</p>
 						<ul class="faculdade-lista">
-							<li class="faculdade">
+							<li class="faculdade" data-tilt>
 								<span class="faculdade-tipo"
 									>Curso Superior</span
 								>
@@ -217,7 +220,7 @@
 								>
 								<span>2021 - 2024</span>
 							</li>
-							<li class="faculdade">
+							<li class="faculdade" data-tilt>
 								<span class="faculdade-tipo"
 									>Curso Intensivo</span
 								>
@@ -227,7 +230,7 @@
 								>
 								<span>Completo</span>
 							</li>
-							<li class="faculdade">
+							<li class="faculdade" data-tilt>
 								<span class="faculdade-tipo"
 									>Curso Intensivo</span
 								>
@@ -237,7 +240,7 @@
 								>
 								<span>Completo</span>
 							</li>
-							<li class="faculdade">
+							<li class="faculdade" data-tilt>
 								<span class="faculdade-tipo"
 									>Curso Intensivo</span
 								>
@@ -249,7 +252,7 @@
 								>
 								<span>Cursando</span>
 							</li>
-							<li class="faculdade">
+							<li class="faculdade" data-tilt>
 								<span class="faculdade-tipo"
 									>Curso Intensivo</span
 								>
@@ -259,7 +262,7 @@
 								>
 								<span>Cursando</span>
 							</li>
-							<li class="faculdade">
+							<li class="faculdade" data-tilt>
 								<span class="faculdade-tipo"
 									>Curso Intensivo</span
 								>
@@ -331,11 +334,6 @@
 							data-anime="scroll"
 							data-anime="show-down"
 						>
-							<img
-								class="item-projeto"
-								src="assets/projetos/portfolio.png"
-								alt="Projeto-BikeCraft"
-							/>
 							<div class="projeto-description">
 								<h3 class="portTitle">arthury10.io</h3>
 								<p class="portText">
@@ -373,6 +371,11 @@
 									>VER NO GITHUB</a
 								>
 							</div>
+							<img
+								class="item-projeto"
+								src="assets/projetos/portfolio.png"
+								alt="Projeto-BikeCraft"
+							/>
 						</div>
 						<div
 							class="projetos show-down"
@@ -558,7 +561,7 @@
 		</div>
 		<!--loading-->
 		<!--scripts-->
-		<script src="src/js/plugin/simple-slide.js"></script>
+		<script src="src/js/plugin/cards.js"></script>
 		<script type="module" src="src/js/script.js"></script>
 		<script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.12/typed.min.js"></script>
 	</body>

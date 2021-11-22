@@ -30,14 +30,24 @@
 
 .projetos {
 	width: 100%;
+	padding: 20px 20px;
 }
 
 .projetos .item-projeto {
 	width: 100%;
 	width: 50rem;
-	padding: 20px 20px;
 	border-radius: 30px;
 	height: auto;
+	-moz-transition: all 0.5s;
+	-webkit-transition: all 0.5s;
+	transition: all 0.5s;
+}
+
+.item-projeto:hover {
+	-moz-transform: scale(1.2);
+	-webkit-transform: scale(1.2);
+	transform: scale(1.2);
+	border: 2px solid var(--color-secondary);
 }
 .projeto-description {
 	display: flex;

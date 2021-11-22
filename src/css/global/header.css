@@ -70,10 +70,6 @@ nav .links-nav a:hover {
 	.header {
 		gap: 50px;
 	}
-
-	.nav-desktop {
-		display: hidden;
-	}
 }
 
 /*animition*/
@@ -109,5 +105,40 @@ nav .links-nav a:hover {
 		transform: scaleY(1);
 		-webkit-transform-origin: 100% 0%;
 		transform-origin: 100% 0%;
+	}
+}
+
+[data-fadeIn='fadeInDown'] {
+	-webkit-animation-name: fadeInDown;
+	animation-name: fadeInDown;
+	-webkit-animation-duration: 1s;
+	animation-duration: 1s;
+	-webkit-animation-fill-mode: both;
+	animation-fill-mode: both;
+}
+
+@-webkit-keyframes fadeInDown {
+	0% {
+		opacity: 0;
+		-webkit-transform: translate3d(0, -100%, 0);
+		transform: translate3d(0, -100%, 0);
+	}
+	100% {
+		opacity: 1;
+		-webkit-transform: none;
+		transform: none;
+	}
+}
+
+@keyframes fadeInDown {
+	0% {
+		opacity: 0;
+		-webkit-transform: translate3d(0, -100%, 0);
+		transform: translate3d(0, -100%, 0);
+	}
+	100% {
+		opacity: 1;
+		-webkit-transform: none;
+		transform: none;
 	}
 }

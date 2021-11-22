@@ -38,6 +38,13 @@
 	padding: 40px;
 	display: flex;
 	flex-direction: column;
+	transition: 0.1s ease-in-out;
+	transition: background 2s;
+}
+
+.faculdade:hover {
+	background-color: var(--color-extra2);
+	transition: background 2s;
 }
 
 .faculdade span:last-child {
@@ -91,6 +98,11 @@
 	background: var(--color-primary-bg);
 	box-shadow: var(--color-secondary) 0px 10px 15px -5px;
 	border-radius: 30px;
+}
+
+.tecnologia:hover {
+	background-color: var(--color-extra2);
+	transition: background 2s;
 }
 
 @media screen and (max-width: 800px) {
