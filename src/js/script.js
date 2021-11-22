@@ -6,6 +6,7 @@ import initAnimacaoScroll from './modules/scroll-animacao.js'
 import initScrollSuave from './modules/scroll-suave.js'
 import particles from './modules/particles.js'
 import SimpleAnime from './plugin/anime.js'
+import darkMode from './modules/darkMode.js'
 
 load()
 navMenu()
@@ -15,3 +16,4 @@ initAnimacaoScroll()
 initScrollSuave()
 particles()
 new SimpleAnime()
+darkMode()

@@ -2,7 +2,7 @@ export default function particles() {
 	particlesJS('particles-container', {
 		particles: {
 			number: { value: 150, density: { enable: true, value_area: 800 } },
-			color: { value: '#ffffff' },
+			color: { value: '#000000' },
 			shape: {
 				type: 'triangle',
 				stroke: { width: 0, color: '#000000' },
@@ -28,7 +28,7 @@ export default function particles() {
 			},
 			move: {
 				enable: true,
-				speed: 6,
+				speed: 4,
 				direction: 'none',
 				random: false,
 				straight: false,

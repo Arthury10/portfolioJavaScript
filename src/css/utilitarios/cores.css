@@ -10,6 +10,28 @@
 	--color-extra2: #3e9766;
 }
 
+body.dark {
+	--color-primary: #000000;
+	--color-primary-bg: #101010;
+	--color-primary-bg2: #202020;
+	--color-secondary: #01d461;
+	--color-text: #ffffff;
+	--color-text-secondary: #9e9e9e;
+	--color-extra: #8000ff;
+	--color-extra2: #3e9766;
+}
+
+body.light {
+	--color-primary: #ffffff;
+	--color-primary-bg: #eeeded;
+	--color-primary-bg2: #cfcdcd;
+	--color-secondary: #01d461;
+	--color-text: #000000;
+	--color-text-secondary: #101010;
+	--color-extra: #8000ff;
+	--color-extra2: #3e9766;
+}
+
 .cor-1 {
 	color: var(--color-primary);
 }

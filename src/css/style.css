@@ -22,6 +22,9 @@
 /*forms*/
 @import url('utilitarios/forms.css');
 
+/*darkmode*/
+@import url('utilitarios/darkmode.css');
+
 /*header*/
 @import url('global/header.css');
 
