@@ -22,9 +22,9 @@ body.dark {
 }
 
 body.light {
-	--color-primary: #ffffff;
-	--color-primary-bg: #eeeded;
-	--color-primary-bg2: #cfcdcd;
+	--color-primary: #e9e7e7;
+	--color-primary-bg: #979797;
+	--color-primary-bg2: #888888;
 	--color-secondary: #01d461;
 	--color-text: #000000;
 	--color-text-secondary: #101010;

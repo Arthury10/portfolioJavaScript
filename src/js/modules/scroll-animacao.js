@@ -8,10 +8,9 @@ export default function initAnimacaoScroll() {
 			sections.forEach(section => {
 				const sectionTop = section.getBoundingClientRect().top
 				const isSectionVisible = sectionTop - windowMetade < 0
-				console.log(sectionTop)
 				if (isSectionVisible) {
 					section.classList.add('scrollAnima')
-				} else {
+				} else if (section.classList.contains('scrollAnima')) {
 					section.classList.remove('scrollAnima')
 				}
 			})

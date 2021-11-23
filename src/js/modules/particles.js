@@ -40,7 +40,7 @@ export default function particles() {
 		interactivity: {
 			detect_on: 'canvas',
 			events: {
-				onhover: { enable: true, mode: 'repulse' },
+				onhover: { enable: true, mode: 'grap' },
 				onclick: { enable: true, mode: 'push' },
 				resize: true
 			},
