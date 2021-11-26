@@ -6,5 +6,5 @@ export default function load() {
 		document.querySelector('.loading').classList = 'loading'
 		document.querySelector('.loading').classList = 'load'
 		document.querySelector('#bar-loading').classList.add('desactiveLoad')
-	}, 4000)
+	}, 0)
 }

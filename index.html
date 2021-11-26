@@ -88,12 +88,12 @@
 									Baixar CV
 								</button></a
 							>
-							<button
+							<!-- <button
 								id="btnHomeContato"
 								class="btnHome btnContato open-form-home"
 							>
 								Entrar em contato
-							</button>
+							</button> -->
 						</div>
 					</div>
 				</div>
@@ -450,6 +450,7 @@
 						action="https://formspree.io/f/xdoyrdlr"
 						method="post"
 						target="_blanck"
+						id="contato"
 					>
 						<h2 class="texto">Contato</h2>
 						<div class="form-group">
@@ -457,30 +458,33 @@
 								type="text"
 								class="form-control"
 								id="name"
-								placeholder="Nome"
+								placeholder="Nome*"
 								name="name"
 								required
 							/>
+							<span class="erro"></span>
 						</div>
 						<div class="form-group">
 							<input
 								type="email"
 								class="form-control"
 								id="email"
-								placeholder="E-mail"
+								placeholder="E-mail*"
 								name="email"
 								required
 							/>
+							<span class="erro"></span>
 						</div>
 						<div class="form-group">
 							<input
 								type="text"
 								class="form-control"
 								id="assunto"
-								placeholder="Assunto"
+								placeholder="Assunto*"
 								name="Subject"
 								required
 							/>
+							<span class="erro"></span>
 						</div>
 						<div class="form-group">
 							<textarea
@@ -489,7 +493,6 @@
 								rows="3"
 								placeholder="Sua Mensagem"
 								name="message"
-								required
 							></textarea>
 						</div>
 						<button
@@ -499,13 +502,12 @@
 						>
 							Enviar
 						</button>
-						<div class="sucesso">
-							<h2>
-								Agradeço o contato, retornarei o mais breve
-								possível!
-							</h2>
-						</div>
 					</form>
+					<div class="enviadoContato">
+						<h1 class="texto cor-2">
+							Obrigado pelo contato, retornarei em breve
+						</h1>
+					</div>
 				</div>
 			</section>
 			<!--CONTATO-->

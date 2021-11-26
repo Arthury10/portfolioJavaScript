@@ -7,6 +7,7 @@ import initScrollSuave from './modules/scroll-suave.js'
 import particles from './modules/particles.js'
 import SimpleAnime from './plugin/anime.js'
 import darkMode from './modules/darkMode.js'
+import forms from './modules/forms.js'
 
 load()
 navMenu()
@@ -17,3 +18,4 @@ initScrollSuave()
 particles()
 new SimpleAnime()
 darkMode()
+forms()
