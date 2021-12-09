@@ -26,7 +26,8 @@
 /* Image by Patrick Fore on Unsplash */
 
 .apresentation-text {
-	margin-top: 2rem;
+	margin-top: 2%;
+	margin-bottom: 2%;
 	transition: 0.1s ease-in-out;
 	display: flex;
 	flex-direction: column;
